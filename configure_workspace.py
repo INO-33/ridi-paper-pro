@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Create portable workspace links without overwriting existing directories."""
+from pathlib import Path
+import shlex
+import sys
+
+workspace = Path(sys.argv[1]).resolve()
+source = workspace / 'android-sources/nxp-o8.0.0_1.0.0-ga'
+support = source / 'ridi-build-support'
+if not (support / 'build.sh').is_file():
+    raise SystemExit('Build support checkout is missing')
+for name in ['host-tools', 'tools', 'porting', 'scripts']:
+    destination = workspace / name
+    target = support / name
+    if destination.exists() or destination.is_symlink():
+        if destination.is_symlink() and destination.resolve() == target.resolve():
+            continue
+        raise SystemExit('Refusing to overwrite existing workspace path: ' + str(destination))
+    destination.symlink_to(target, target_is_directory=True)
+for name in ['android-out', 'deliverables', '.orchestrator/logs']:
+    (workspace / name).mkdir(parents=True, exist_ok=True)
+env = workspace / 'env.sh'
+content = '\n'.join([
+    'export RIDI_WORKSPACE=' + shlex.quote(str(workspace)),
+    'export ANDROID_BUILD_TOP=' + shlex.quote(str(source)),
+    'export JAVA_HOME=' + shlex.quote(str(support / 'host-tools/jdk8-local/usr/lib/jvm/java-8-openjdk-amd64')),
+    'export RIDI_ANDROID8_TOOL_BIN=' + shlex.quote(str(support / 'host-tools/android8-bin')),
+    'export PATH="$RIDI_ANDROID8_TOOL_BIN:$JAVA_HOME/bin:$PATH"',
+    '',
+])
+if env.exists() and env.read_text() != content:
+    raise SystemExit('Refusing to overwrite different env.sh: ' + str(env))
+env.write_text(content)
+print('Portable workspace configured')

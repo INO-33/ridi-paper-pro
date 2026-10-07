@@ -1,0 +1,4 @@
+.bootstrap/
+__pycache__/
+*.pyc
+*.log
