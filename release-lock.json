@@ -1,56 +1,56 @@
 {
-  "checkpoint": "source-snapshot-20261007",
   "owner": "INO-33",
   "repo_tool_commit": "35bbf701d04de5c6a71937279bc3d16f6ce36808",
+  "webview_prebuilt": {
+    "sha256": "1721f00576a8569fceff3a8324032732346603826fc688097de6adc79bc98de0",
+    "bytes": 53998566,
+    "source_build_match_verified": false
+  },
+  "new_environment_full_build_verified": false,
+  "upstream_mirror_complete": false,
+  "runtime_validation": "No new build or physical validation in this checkpoint",
+  "ignored_generated_upstream_change": "external/libxml2/python/MANIFEST",
+  "source_working_trees_preserved": true,
+  "checkpoint": "consolidated-20261007",
+  "managed_repositories": [
+    {
+      "repository": "INO-33/RIDI_ANDROID8_MANIFEST",
+      "purpose": "manifest",
+      "branch": "consolidated-20261007"
+    },
+    {
+      "repository": "INO-33/RIDI_ANDROID8_CHANGES",
+      "purpose": "android-changes",
+      "commit": "46d549e561ec38fa09300aa68c8f35d058155549",
+      "branch": "consolidated-20261007"
+    },
+    {
+      "repository": "INO-33/RIDI_ANDROID8_BUILD_TOOLS",
+      "purpose": "build-tools",
+      "commit": "bd3899afc35db322c7b012993b3cfad260c86533",
+      "branch": "consolidated-20261007"
+    },
+    {
+      "repository": "INO-33/RIDI_PAPER_PRO_ANDROID8_DEVICE",
+      "purpose": "device/ridi/e70q10",
+      "commit": "9f4528d0827379337fd8ae889e4954032902f78c",
+      "branch": "source-snapshot-20261007"
+    },
+    {
+      "repository": "INO-33/RIDI_PAPER_PRO_ANDROID8",
+      "purpose": "vendor/nxp-opensource/kernel_imx",
+      "commit": "40fc558493c471001bbd98ea1229de9277beef24",
+      "branch": "source-snapshot-20261007"
+    },
+    {
+      "repository": "INO-33/RIDI_CHROMIUM_M58",
+      "purpose": "chromium",
+      "commit": "ea0431421ddfe47264648f03189763cf4bafa9ea",
+      "branch": "consolidated-20261007"
+    }
+  ],
+  "managed_repository_count": 6,
   "source_repositories": [
-    {
-      "path": "build/make",
-      "repository": "INO-33/RIDI_ANDROID8_BUILD_MAKE",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_BUILD_MAKE.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "ff61ab0852a6f83ae0002d48f9a2597ab50703ae",
-      "baseline": "78d1b3093ce412b8b9c974b610e46c7370da1de7",
-      "commit": "f19548e8ce4971595bec3c71f1a7691fc670c380",
-      "tree": "25d721f44731abf9877ebea20f322c77b9d10a2d",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "device/fsl",
-      "repository": "INO-33/RIDI_ANDROID8_DEVICE_FSL",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_DEVICE_FSL.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "c185d8c8421e95bb5399b4947c631ae937738ff1",
-      "baseline": "70a25459a952e269a50a937733517eced81ce627",
-      "commit": "a9aa47ee38e6a9ba4af0194702b0d4e365c3c634",
-      "tree": "2d1706545590a5d8ab9bb2971108049642d72e19",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "device/generic/goldfish",
-      "repository": "INO-33/RIDI_ANDROID8_DEVICE_GENERIC_GOLDFISH",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_DEVICE_GENERIC_GOLDFISH.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "dd829b110e4f16f028824ec1c064fa067391427d",
-      "baseline": "96af78b24c7855bbe18f719dae989a4fb63998e1",
-      "commit": "0c8540f0d52ab6f78eeea2e97d29f9ea42e07157",
-      "tree": "496fb89ebc58786277ab23e0ef536cfa4ef947dd",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "device/generic/goldfish-opengl",
-      "repository": "INO-33/RIDI_ANDROID8_DEVICE_GENERIC_GOLDFISH_OPENGL",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_DEVICE_GENERIC_GOLDFISH_OPENGL.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "fa3e9d102a7358a6e5bcd15db8015db6b7fcacd7",
-      "baseline": "03f1ec89231e4806dc0a556b903e767bdf4bafce",
-      "commit": "feac83cc7d14390897c40fc9977d6d17895015ed",
-      "tree": "98237d6f9cc26eec287f3490643aa224849fec04",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
     {
       "path": "device/ridi/e70q10",
       "repository": "INO-33/RIDI_PAPER_PRO_ANDROID8_DEVICE",
@@ -66,234 +66,6 @@
         "power_diag/__pycache__/analyze.cpython-312.pyc",
         "tools/__pycache__/prune_legacy_system_apps.cpython-312.pyc"
       ]
-    },
-    {
-      "path": "external/mesa3d",
-      "repository": "INO-33/RIDI_ANDROID8_EXTERNAL_MESA3D",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_EXTERNAL_MESA3D.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "6a1748b81a7d4e6840a2f27b257c9b33acd37f1e",
-      "baseline": "4239bb0a0293b52de7cfa8ec626b2e5d289f1d85",
-      "commit": "b6a48efa5d6ea4e40662dceda8cae96f3bdf22ea",
-      "tree": "d9b8b57a7d408313e093a1170d5826baa69dadd7",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "frameworks/av",
-      "repository": "INO-33/RIDI_ANDROID8_FRAMEWORKS_AV",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_FRAMEWORKS_AV.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "15f1cf87b9cea79a4c43214ffc8a54d92dbd31c6",
-      "baseline": "58b5a044d5228d4bb2ece9291638ac00a49095f8",
-      "commit": "3df487acd3131c8f15ab8906a630caf639bcade3",
-      "tree": "cb5e2ddda1c45ef1c42468019ef5942a944003cf",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "frameworks/base",
-      "repository": "INO-33/RIDI_ANDROID8_FRAMEWORKS_BASE",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_FRAMEWORKS_BASE.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "4528b036f17eb07e63b45fe32a8322144445d626",
-      "baseline": "e442b1ece3f5f821f9ef5a3194abe01091ed356d",
-      "commit": "b0b3c1f6463731b3b010ad88f755f1614f9e9271",
-      "tree": "4f0f331d8f346fc084a77f88f58bec0364539eeb",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "frameworks/native",
-      "repository": "INO-33/RIDI_ANDROID8_FRAMEWORKS_NATIVE",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_FRAMEWORKS_NATIVE.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "4ae65045f7de29ef373551642b0901386382f905",
-      "baseline": "df73468fb212997b6ffd4ac3539c317298b74174",
-      "commit": "14c74fc07ecd983cb64706db8d02ba83edae07fe",
-      "tree": "93a83f9b0d3d44b816f6b894d97c0ba0a3d62484",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "frameworks/opt/net/wifi",
-      "repository": "INO-33/RIDI_ANDROID8_FRAMEWORKS_OPT_NET_WIFI",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_FRAMEWORKS_OPT_NET_WIFI.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "234b77a1f961f8f8110f84dd272f1739452ac442",
-      "baseline": "e5fd7c3fe4cea721e7f68e72adb5d05609b06ac7",
-      "commit": "3a565ebeed62339d246c35c32e8cf86f38771a15",
-      "tree": "52d62d117145bac4a3fb87a6ab440f7f39afd16d",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "hardware/libhardware",
-      "repository": "INO-33/RIDI_ANDROID8_HARDWARE_LIBHARDWARE",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_HARDWARE_LIBHARDWARE.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "cc54b59f364f8d2321c19ee4d2e2a42bbd4f45df",
-      "baseline": "e629aa38ea00ca8446642a37303f692035289f30",
-      "commit": "e87e98bd2b76b8105b89b0aa150691bbd4548cd8",
-      "tree": "53611346a3ddc9f016ce1a2c05cc4c438f7e1214",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "packages/apps/Browser2",
-      "repository": "INO-33/RIDI_ANDROID8_PACKAGES_APPS_BROWSER2",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_PACKAGES_APPS_BROWSER2.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "ca271c7361bbaafd6c8e860816836a14274a77b0",
-      "baseline": "1c727832792dde02185cda04c1f7838d654322a0",
-      "commit": "4f412c0c159d94e546a537f7a0b8fe889c2b8e2f",
-      "tree": "34d4b77d12ccda11f553a78293b12bc0adb30de1",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "packages/apps/DocumentsUI",
-      "repository": "INO-33/RIDI_ANDROID8_PACKAGES_APPS_DOCUMENTSUI",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_PACKAGES_APPS_DOCUMENTSUI.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "7269dcd95f5776b13c9c6f6ee7a8f81613f306d8",
-      "baseline": "8b7e53b705e649ff70af848947c339bf7391a8ec",
-      "commit": "b02b4e7f2dfc98394bc6c736eec966c772358525",
-      "tree": "9c0f348f442339018c4bee88426c10efb3d2f6c2",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "packages/apps/PackageInstaller",
-      "repository": "INO-33/RIDI_ANDROID8_PACKAGES_APPS_PACKAGEINSTALLER",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_PACKAGES_APPS_PACKAGEINSTALLER.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "32364fac2102b3c224cc4e8d6b50e3cafb4376a3",
-      "baseline": "458c8f05df7417a6c95541746fe5bb6c117ba8b3",
-      "commit": "a26d4443bd9ac789c72d62292cf881ffec1ddd36",
-      "tree": "8d0fd3472601fe25d0ca015bb4e91bbfed1b7c30",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "packages/apps/Settings",
-      "repository": "INO-33/RIDI_ANDROID8_PACKAGES_APPS_SETTINGS",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_PACKAGES_APPS_SETTINGS.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "5c3a63546bbd4d82a126ee15579419e898cbd574",
-      "baseline": "4b5198a5ef81c0bc5412435a193a3585928b9638",
-      "commit": "335dbf032d2c648c13aded1f3df8c9ae7e7bcf65",
-      "tree": "387473bc602be2fbce5a57c8ccffcfd32d69780b",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "packages/inputmethods/LatinIME",
-      "repository": "INO-33/RIDI_ANDROID8_PACKAGES_INPUTMETHODS_LATINIME",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_PACKAGES_INPUTMETHODS_LATINIME.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "6c71275ff34bff8443473c39c23c27feed54c10c",
-      "baseline": "b18f3e2f67040333c29c07a8dd4efc1ac8aef2a7",
-      "commit": "ee6bbf6d9f93dec0d1de7a54d4034ec14f11a792",
-      "tree": "c63a8619f04df5bda0920843b9e6fe88524b9997",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "prebuilts/clang/host/linux-x86",
-      "repository": "INO-33/RIDI_ANDROID8_PREBUILTS_CLANG_HOST_LINUX_X86",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_PREBUILTS_CLANG_HOST_LINUX_X86.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "0cc142357b48a5c4d7a8b19c9db0c53eef2f4491",
-      "baseline": "b5ee1a69e4ae72c1f3f0b00cef9167d1b386d9d0",
-      "commit": "52e7452abf5071ba06fe7b4dfb932d76cc79cd08",
-      "tree": "62419b291f2d9f04a64e51478fc5d89183537884",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
-      "repository": "INO-33/RIDI_ANDROID8_PREBUILTS_GCC_LINUX_X86_ARM_ARM_LINUX_ANDROIDEABI_4.9",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_PREBUILTS_GCC_LINUX_X86_ARM_ARM_LINUX_ANDROIDEABI_4.9.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "d912247d868e39b5e3d8686009ffa0306388d6ef",
-      "baseline": "43d08ce4f26d8632bf81abdb6832d97248eb8fee",
-      "commit": "152af4a68a8074a84d1ffd3f5da1340d43504783",
-      "tree": "59781fa0b737916c49e5fa7b8f9c15f9e6b51b20",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9",
-      "repository": "INO-33/RIDI_ANDROID8_PREBUILTS_GCC_LINUX_X86_X86_X86_64_LINUX_ANDROID_4.9",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_PREBUILTS_GCC_LINUX_X86_X86_X86_64_LINUX_ANDROID_4.9.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "8dc419f50440127c6cad7d785365d71a89e8bdff",
-      "baseline": "f7b096777d38d2279bbf2019870653ef8621ee15",
-      "commit": "c3ca4c3a8d732cd06125262ec91aef1c8c1e60a4",
-      "tree": "8faff611be14b004f33d429fdf05b1d8ed1e7f24",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "system/connectivity/wificond",
-      "repository": "INO-33/RIDI_ANDROID8_SYSTEM_CONNECTIVITY_WIFICOND",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_SYSTEM_CONNECTIVITY_WIFICOND.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "e43b517aecf45efb556d2c9365a9f1fbe0275ed8",
-      "baseline": "a2c7db346c0402a30e161484ab6ab18206906295",
-      "commit": "ea4fe29e91059523fc55a2a8b4e5e271b6d25cea",
-      "tree": "4606a4bf890be2c18521c93c15f68329b45a6f49",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "system/core",
-      "repository": "INO-33/RIDI_ANDROID8_SYSTEM_CORE",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_SYSTEM_CORE.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "ecf3b37464200f7d8a9f355d7e1f7b4ff96fd72c",
-      "baseline": "5f7c1ae7650881f00ef2b4e4820c2d102ae1cea8",
-      "commit": "e497c34cc596f477a86180d66cab6556a4081e6e",
-      "tree": "afc1edb3a2c151f78dd926e17fbc7f0c27d279d5",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "system/sepolicy",
-      "repository": "INO-33/RIDI_ANDROID8_SYSTEM_SEPOLICY",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_SYSTEM_SEPOLICY.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "d01ada892433d084c10c6798520d78504514c5d8",
-      "baseline": "c6d65940cffa897385fe1c95d2235a405680dc9e",
-      "commit": "76357ead7b805b18860c71afa4a907a18129bdcf",
-      "tree": "ee1839a8758037bbe35b3ca035f5482cd24aecd0",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "vendor/nxp-opensource/imx",
-      "repository": "INO-33/RIDI_ANDROID8_VENDOR_NXP_OPENSOURCE_IMX",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_VENDOR_NXP_OPENSOURCE_IMX.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "c6fa3c07d2c5f64027f99a93777e8bce7e88267f",
-      "baseline": "7f72683aaf47bb61e096f27c2630f853876ee43d",
-      "commit": "d8f8ed62721ca686620721245527817773c1a936",
-      "tree": "060ff78c877e0cc5e55717329156bd6b2aa0bad8",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "vendor/nxp-opensource/imx-lib",
-      "repository": "INO-33/RIDI_ANDROID8_VENDOR_NXP_OPENSOURCE_IMX_LIB",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_VENDOR_NXP_OPENSOURCE_IMX_LIB.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "67083e1999d5baa90d7141d84bb866ec8a7cfa90",
-      "baseline": "028b7069ad8efe8b195f18bb2c0ea58eeb2ccaf6",
-      "commit": "f3afe5200f803317b828cd4adccd88db845433b1",
-      "tree": "9296546e3c7a1de867de711d13638741616411de",
-      "history": "upstream-tree-baseline",
-      "excluded": []
     },
     {
       "path": "vendor/nxp-opensource/kernel_imx",
@@ -319,49 +91,61 @@
       "path": "chromium",
       "repository": "INO-33/RIDI_CHROMIUM_M58",
       "url": "https://github.com/INO-33/RIDI_CHROMIUM_M58.git",
-      "branch": "source-snapshot-20261007",
+      "branch": "consolidated-20261007",
       "upstream_head": "c254b52f7661657df3d56ff997030fc36988c9cd",
       "baseline": "a0eac0a983673913ea16ea306dbaa4684a0af327",
-      "commit": "27682eef487df94c28f8487ec41a95b683cbde9e",
-      "tree": "d529dbc76f9585401e5c857611afff6b70373616",
+      "commit": "ea0431421ddfe47264648f03189763cf4bafa9ea",
+      "tree": "439b33bd21d5c56a7e6df3c4d53136748604b65b",
       "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "chromium-deps/src/breakpad/src",
-      "repository": "INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_BREAKPAD_SRC",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_BREAKPAD_SRC.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "32f4ba2a1f6c23343870ee4a852df67d900dafe4",
-      "baseline": "1e5ed34f57274004f746e4a64c3e778eda30e638",
-      "commit": "32367feafdaf00db1a5a690bc7d73e843d9b8080",
-      "tree": "f0f52b57f7fa8aed6a35ae00e085006774fe45dc",
-      "history": "upstream-tree-baseline",
-      "excluded": []
-    },
-    {
-      "path": "chromium-deps/src/third_party/swiftshader",
-      "repository": "INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_THIRD_PARTY_SWIFTSHADER",
-      "url": "https://github.com/INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_THIRD_PARTY_SWIFTSHADER.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "91da6b00584afd7dcaed66da88e2b617429b3950",
-      "baseline": "4c00d341e9984ab93cbd3844ca7562760296d81d",
-      "commit": "5bdd0673f2040a902ef08bac8aac007ea2481238",
-      "tree": "883e4230c96001d2760b884b5137958eee6de137",
-      "history": "upstream-tree-baseline",
-      "excluded": []
+      "excluded": [],
+      "dependency_package": "ridi-dependencies"
     }
   ],
-  "build_support_commit": "0cfd3819c6753422228db7db072260833d94c15d",
-  "android_manifest_project_count": 598,
-  "webview_prebuilt": {
-    "sha256": "1721f00576a8569fceff3a8324032732346603826fc688097de6adc79bc98de0",
-    "bytes": 53998566,
-    "source_build_match_verified": false
-  },
-  "new_environment_full_build_verified": false,
-  "upstream_mirror_complete": false,
-  "runtime_validation": "No new build or physical validation in this checkpoint",
-  "ignored_generated_upstream_change": "external/libxml2/python/MANIFEST",
-  "source_working_trees_preserved": true
+  "android_manifest_project_count": 599,
+  "build_support_commit": "bd3899afc35db322c7b012993b3cfad260c86533",
+  "android_changes_commit": "46d549e561ec38fa09300aa68c8f35d058155549",
+  "android_changes_projects": 23,
+  "chromium_dependency_changes": [
+    {
+      "path": "src/breakpad/src",
+      "upstream_url": "https://chromium.googlesource.com/breakpad/breakpad/src.git",
+      "base_commit": "32f4ba2a1f6c23343870ee4a852df67d900dafe4",
+      "result_tree": "f0f52b57f7fa8aed6a35ae00e085006774fe45dc"
+    },
+    {
+      "path": "src/third_party/swiftshader",
+      "upstream_url": "https://swiftshader.googlesource.com/SwiftShader.git",
+      "base_commit": "91da6b00584afd7dcaed66da88e2b617429b3950",
+      "result_tree": "883e4230c96001d2760b884b5137958eee6de137"
+    }
+  ],
+  "superseded_archived_repositories": [
+    "INO-33/RIDI_ANDROID8_BUILD_MAKE",
+    "INO-33/RIDI_ANDROID8_DEVICE_FSL",
+    "INO-33/RIDI_ANDROID8_DEVICE_GENERIC_GOLDFISH",
+    "INO-33/RIDI_ANDROID8_DEVICE_GENERIC_GOLDFISH_OPENGL",
+    "INO-33/RIDI_ANDROID8_EXTERNAL_MESA3D",
+    "INO-33/RIDI_ANDROID8_FRAMEWORKS_AV",
+    "INO-33/RIDI_ANDROID8_FRAMEWORKS_BASE",
+    "INO-33/RIDI_ANDROID8_FRAMEWORKS_NATIVE",
+    "INO-33/RIDI_ANDROID8_FRAMEWORKS_OPT_NET_WIFI",
+    "INO-33/RIDI_ANDROID8_HARDWARE_LIBHARDWARE",
+    "INO-33/RIDI_ANDROID8_PACKAGES_APPS_BROWSER2",
+    "INO-33/RIDI_ANDROID8_PACKAGES_APPS_DOCUMENTSUI",
+    "INO-33/RIDI_ANDROID8_PACKAGES_APPS_PACKAGEINSTALLER",
+    "INO-33/RIDI_ANDROID8_PACKAGES_APPS_SETTINGS",
+    "INO-33/RIDI_ANDROID8_PACKAGES_INPUTMETHODS_LATINIME",
+    "INO-33/RIDI_ANDROID8_PREBUILTS_CLANG_HOST_LINUX_X86",
+    "INO-33/RIDI_ANDROID8_PREBUILTS_GCC_LINUX_X86_ARM_ARM_LINUX_ANDROIDEABI_4.9",
+    "INO-33/RIDI_ANDROID8_PREBUILTS_GCC_LINUX_X86_X86_X86_64_LINUX_ANDROID_4.9",
+    "INO-33/RIDI_ANDROID8_SYSTEM_CONNECTIVITY_WIFICOND",
+    "INO-33/RIDI_ANDROID8_SYSTEM_CORE",
+    "INO-33/RIDI_ANDROID8_SYSTEM_SEPOLICY",
+    "INO-33/RIDI_ANDROID8_VENDOR_NXP_OPENSOURCE_IMX",
+    "INO-33/RIDI_ANDROID8_VENDOR_NXP_OPENSOURCE_IMX_LIB",
+    "INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_BREAKPAD_SRC",
+    "INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_THIRD_PARTY_SWIFTSHADER"
+  ],
+  "archived_repositories_required_for_restore": false,
+  "package_source_tree_equivalence_verified": true
 }

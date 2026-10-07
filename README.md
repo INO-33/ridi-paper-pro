@@ -1,15 +1,25 @@
-# RIDI PAPER PRO Android 8 source checkpoint
+# RIDI Android 8 — six repositories
 
-Private checkpoint: `source-snapshot-20261007`, GitHub owner `INO-33`.
-`default.xml` pins every Android project to an exact commit. `release-lock.json`
-records the original source HEADs, exported commits and essential asset hashes.
+Checkpoint: `consolidated-20261007`. Owner: `INO-33`. All six repositories private.
 
-## Restore Android sources
+| Repository | Purpose |
+|---|---|
+| RIDI_ANDROID8_MANIFEST | Pinned source combination, preparation and verification |
+| RIDI_PAPER_PRO_ANDROID8 | Kernel and RIDI drivers |
+| RIDI_PAPER_PRO_ANDROID8_DEVICE | Device settings, apps and required device assets |
+| RIDI_ANDROID8_CHANGES | One package for 23 modified Android projects |
+| RIDI_CHROMIUM_M58 | WebView source plus its Breakpad/SwiftShader change package |
+| RIDI_ANDROID8_BUILD_TOOLS | Host assets, build scripts and updater producer |
 
-Authenticate GitHub CLI as INO-33 (or an authorized collaborator), configure Git
-authentication with `gh auth setup-git`, and clone this manifest repository:
+The earlier 25 individual repositories are read-only archives. They are backups,
+not dependencies of this checkpoint. Earlier source branches/tags remain intact.
+
+## Restore Android
+
+On Linux x86-64 with Git, Python 3, GitHub CLI and sufficient disk/RAM:
 
 ```sh
+gh auth setup-git
 gh repo clone INO-33/RIDI_ANDROID8_MANIFEST
 cd RIDI_ANDROID8_MANIFEST
 ./prepare.sh /absolute/path/to/new-ridi-workspace
@@ -18,19 +28,21 @@ source /absolute/path/to/new-ridi-workspace/env.sh
 "$ANDROID_BUILD_TOP/ridi-build-support/build.sh" build e70q10_reference-eng
 ```
 
-Requires Linux x86-64, Git, Python 3, GitHub access and sufficient disk/RAM for
-Android sources and outputs. The original host was Ubuntu 24.04; its package
-inventory, Java 8 runtime and portable Python 2 wrappers are in build support.
-Host package installation is not automated or validated in a fresh environment.
-The prepare command refuses an existing source destination and never flashes a
-device. Build scripts write logs under the new workspace's `.orchestrator/logs`.
-Emulator products are `e70q10_emulator-eng` and `e70q10_emulator_armv7-eng`.
+The prepare script fetches immutable upstream Android revisions, the separate
+RIDI kernel/device repositories, build support and the Android change package.
+It applies the changes and checks complete Git tree hashes against the previous
+source snapshots. Binary resources, executable modes and deletions are included.
+Restored projects get detached local checkpoint commits; upstream refs are kept.
+Existing/modified destinations are refused. No reset, clean or flash is performed.
+Logs are in the workspace's `.orchestrator/logs`.
 
-## WebView source reconstruction
+The host package inventory and materialized Java 8 runtime are in build support.
+Emulator products: `e70q10_emulator-eng`, `e70q10_emulator_armv7-eng`.
 
-Android uses the preserved `device/ridi/e70q10/webview/SystemWebView.apk`.
-Its hash is pinned, but a match to the current Chromium source was not verified.
-To separately restore Chromium M58 and its two modified Git dependencies:
+## Restore WebView sources
+
+Android uses the preserved device-local WebView APK; its SHA256 is pinned.
+To separately restore the current M58 source checkpoint:
 
 ```sh
 python3 prepare-chromium.py "$RIDI_WORKSPACE"
@@ -39,25 +51,20 @@ DEPOT_TOOLS_ROOT="$RIDI_WORKSPACE/depot_tools" \
 "$RIDI_WORKSPACE/tools/chromium-m58-build/build_m58_xenial_arm.sh"
 ```
 
-The analogous x86 script is `build_m58_xenial_x86.sh`. Docker is required.
-The M58 source commit, depot_tools commit and dependency checkout inventory are
-preserved. Upstream DEPS downloads and old Ubuntu package archives remain
-external dependencies; the entire dependency ecosystem is not mirrored.
+Preparation fetches pinned upstream dependencies and applies the Breakpad and
+SwiftShader package from `RIDI_CHROMIUM_M58/ridi-dependencies`.
+Docker is required; x86 uses `build_m58_xenial_x86.sh`.
+The APK's match to a rebuild of these sources remains unverified.
 
-## History and completeness
+## Validation and remaining work
 
-The existing RIDI kernel/device repositories retain their parent history.
-New private repositories contain an upstream-tree baseline followed by the RIDI
-checkpoint commit. This avoids fetching enormous upstream histories from shallow
-checkouts. Original upstream SHAs are recorded for comparison and provenance.
-No existing source HEAD, branch, index or working file was reset or overwritten.
-Temporary caches/backups and generated libxml2 Python MANIFEST were excluded.
+The 23 Android and two Chromium dependency packages reconstruct the same Git
+source trees as the previous snapshots. Archived repositories are not required.
+The Chromium product source is unchanged by this reorganization.
 
-This checkpoint preserves sources; it is **not** confirmation that a new machine
-can already build the full product. No clean build, installation or physical
-validation was performed. Unmodified AOSP/NXP repositories remain upstream,
-so long-term upstream mirrors, fixed host package/image archives and a complete
-fresh-environment build still need verification before deleting original sources.
-Historical installer scripts are archived for reference; the updater producer
-owns its required assets. Production signing keys and whole disk backups are not
-included. Keep repositories private because device/stock assets are present.
+No full Android/Chromium build in a new environment or physical validation was
+run. Unmodified upstream sources, Chromium DEPS downloads and native/container
+packages still require long-term mirroring and environment validation. Deleting
+original sources should wait for full reconstruction/build validation.
+Historical initial-installer scripts retain old backup/output references;
+the updater owns its required assets.

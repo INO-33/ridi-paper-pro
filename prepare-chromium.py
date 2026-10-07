@@ -31,9 +31,9 @@ with (logs / 'chromium-source-prepare.log').open('w') as log:
         'src/third_party/swiftshader/third_party/pnacl-subzero':
             'https://chromium.googlesource.com/native_client/pnacl-subzero@c48bb8b02c98ae49438e43aa1143a958784822a5',
     }
-    for row in lock['source_repositories']:
-        if row['path'].startswith('chromium-deps/'):
-            overrides[row['path'].removeprefix('chromium-deps/')] = row['url'] + '@' + row['commit']
+    # The RIDI dependency changes are bundled inside the main Chromium repo.
+    for row in lock['chromium_dependency_changes']:
+        overrides[row['path']] = row['upstream_url'] + '@' + row['base_commit']
     config = "target_os = ['android']\ntarget_os_only = True\nsolutions = " + repr([{
         'name': 'src', 'url': source['url'] + '@' + source['commit'], 'deps_file': 'DEPS',
         'managed': False, 'custom_deps': overrides, 'custom_vars': {},
@@ -41,4 +41,5 @@ with (logs / 'chromium-source-prepare.log').open('w') as log:
     (root / '.gclient').write_text(config)
     env = os.environ | {'DEPOT_TOOLS_UPDATE': '0', 'PATH': str(depot) + os.pathsep + os.environ['PATH']}
     run([str(depot / 'gclient'), 'sync', '--no-history'], cwd=root, env=env)
+    run(['python3', str(root / 'src/ridi-dependencies/apply.py'), str(root)])
 print('Chromium source restored; log: ' + str(logs / 'chromium-source-prepare.log'))
