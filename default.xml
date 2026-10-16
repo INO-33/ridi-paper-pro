@@ -616,6 +616,6 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
   <project name="RIDI_PAPER_PRO_ANDROID8_DEVICE" path="device/ridi/e70q10" remote="ridi" revision="908b94bc4a999313171b0a01fd1fb2913e9457e6" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
   <project name="RIDI_ANDROID8_BUILD_TOOLS" path="ridi-build-support" remote="ridi" revision="099aa6b80590c2f08555ad6683e8605c5a750195" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
-  <project name="RIDI_ANDROID8_CHANGES" path="ridi-android-changes" remote="ridi" revision="6e4dc8b6f5503693c6f6d5900c0cb899e434877f" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
+  <project name="RIDI_ANDROID8_CHANGES" path="ridi-android-changes" remote="ridi" revision="db555feeced3cd104a2f898190841fa6fc447eba" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
   <project name="RIDI_PAPER_PRO_SD_TOOLS" path="ridi-sd-tools" remote="ridi" revision="42b7a15efae1ad10ccfe361c916d87faa83b8007" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
 </manifest>

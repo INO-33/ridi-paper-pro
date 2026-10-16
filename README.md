@@ -20,8 +20,8 @@ RIDI용 시스템 UI와 WebView를 구성합니다. 이 저장소에서 전체 �
 | [RIDI_ANDROID8_BUILD_TOOLS](https://github.com/INO-33/RIDI_ANDROID8_BUILD_TOOLS) | 개발·배포 도구 · 호스트 자산, Android·WebView 빌드 래퍼 |
 | [RIDI_PAPER_PRO_SD_TOOLS](https://github.com/INO-33/RIDI_PAPER_PRO_SD_TOOLS) | SD/eMMC 전용 · CLI·GUI, RAM 도구, Windows 배포 빌더 |
 
-과거에 개별 구성 요소로 나눴던 25개 저장소는 읽기 전용 보관본입니다.
-현재 체크포인트의 소스 복원에는 위 7개 관리 저장소를 사용합니다.
+과거에 개별 구성 요소로 나눴던 25개 저장소는 통합 후 삭제했습니다.
+현재 소스 복원과 변경 관리는 위 7개 저장소를 사용합니다.
 
 ## 대상과 소스 구조
 

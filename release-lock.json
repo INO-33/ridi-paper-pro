@@ -17,14 +17,14 @@
       "repository": "INO-33/RIDI_ANDROID8_MANIFEST",
       "purpose": "manifest",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "077239c02fc13d32a169cca16900166f33023adc663dc61bb7b5b6f946a195ed"
+      "readme_sha256": "8a165da23e2a19a37023e10cb020bc81285ec9ecd3e08a60c64d1fe68b2a5fc3"
     },
     {
       "repository": "INO-33/RIDI_ANDROID8_CHANGES",
       "purpose": "android-changes",
-      "commit": "6e4dc8b6f5503693c6f6d5900c0cb899e434877f",
+      "commit": "db555feeced3cd104a2f898190841fa6fc447eba",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "16fa5d9cc04b14210e68e18660b4206af7f4fd5e58e195e2c6b01d23a898c179"
+      "readme_sha256": "bb76d324b58d0681cfdba33d22408d6e9ca1c62f4b3c60a70aa95f3bb2327c0a"
     },
     {
       "repository": "INO-33/RIDI_ANDROID8_BUILD_TOOLS",
@@ -94,7 +94,7 @@
   ],
   "android_manifest_project_count": 600,
   "build_support_commit": "099aa6b80590c2f08555ad6683e8605c5a750195",
-  "android_changes_commit": "6e4dc8b6f5503693c6f6d5900c0cb899e434877f",
+  "android_changes_commit": "db555feeced3cd104a2f898190841fa6fc447eba",
   "android_changes_projects": 23,
   "chromium_dependency_changes": [
     {
@@ -110,7 +110,13 @@
       "result_tree": "883e4230c96001d2760b884b5137958eee6de137"
     }
   ],
-  "superseded_archived_repositories": [
+  "archived_repositories_required_for_restore": false,
+  "package_source_tree_equivalence_verified": true,
+  "checkpoint_date": "2026-10-16",
+  "main_repository": "INO-33/RIDI_ANDROID8_MANIFEST",
+  "sd_tools_commit": "42b7a15efae1ad10ccfe361c916d87faa83b8007",
+  "sd_tools_repository": "INO-33/RIDI_PAPER_PRO_SD_TOOLS",
+  "superseded_deleted_repositories": [
     "INO-33/RIDI_ANDROID8_BUILD_MAKE",
     "INO-33/RIDI_ANDROID8_DEVICE_FSL",
     "INO-33/RIDI_ANDROID8_DEVICE_GENERIC_GOLDFISH",
@@ -137,10 +143,5 @@
     "INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_BREAKPAD_SRC",
     "INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_THIRD_PARTY_SWIFTSHADER"
   ],
-  "archived_repositories_required_for_restore": false,
-  "package_source_tree_equivalence_verified": true,
-  "checkpoint_date": "2026-10-16",
-  "main_repository": "INO-33/RIDI_ANDROID8_MANIFEST",
-  "sd_tools_commit": "42b7a15efae1ad10ccfe361c916d87faa83b8007",
-  "sd_tools_repository": "INO-33/RIDI_PAPER_PRO_SD_TOOLS"
+  "superseded_repository_disposition": "Deleted at explicit user request on 2026-10-16"
 }
