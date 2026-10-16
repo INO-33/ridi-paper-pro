@@ -399,10 +399,11 @@
     {
       "repository": "ridi-paper-pro-android-device",
       "path": "stock-blobs/imx/epdc/epdc_ED078KH1.fw",
-      "category": "hold-extracted-device-assets",
-      "reason": "Device history explicitly identifies extracted waveform/module as private; permissions and corresponding source unresolved",
+      "category": "review-waveform-distribution-terms",
+      "reason": "Owner points to public waveform distribution examples and prefers retention. Public examples verified, but identical-file public provenance and redistribution terms unverified. Earlier mandatory-exclusion claim withdrawn; neither prohibition nor permission established.",
       "bytes": 4642008,
-      "sha256": "3b9558e462b71d82c56763852fc3421e93b445edc22700200f92dd9b39b31089"
+      "sha256": "3b9558e462b71d82c56763852fc3421e93b445edc22700200f92dd9b39b31089",
+      "public_example": "https://github.com/zephray/NekoInk/wiki/Waveform-for-the-screen"
     },
     {
       "repository": "ridi-paper-pro-android-device",
@@ -1206,5 +1207,6 @@
     }
   ],
   "runtime_members_file": "runtime-ramdisk-members.json",
-  "owner_decision_update": "2026-10-16: retain screen artwork; review Wi-Fi module source/provenance; waveform remains the priority exclusion. No visibility or asset/history changes."
+  "owner_decision_update": "2026-10-16: retain screen artwork; review Wi-Fi module source/provenance; waveform remains the priority exclusion. No visibility or asset/history changes.",
+  "waveform_decision_update": "2026-10-16: owner prefers retaining waveform based on public examples; classify exact file redistribution terms as unverified, without asserting legality either way. Repository remains private."
 }
