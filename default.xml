@@ -87,7 +87,7 @@
   <project name="imx-firmware" path="vendor/nxp/imx-firmware" remote="imx-proprietary" revision="87ba304b9efbb2e8dbdd54af4c087584fb259535" />
   <project name="imx-lib" path="vendor/nxp-opensource/imx-lib" remote="imx-linux-sdk" revision="67083e1999d5baa90d7141d84bb866ec8a7cfa90" upstream="refs/tags/o8.0.0_1.0.0-ga" dest-branch="refs/tags/o8.0.0_1.0.0-ga" />
   <project name="kernel/tests" revision="c5c3d1f27e0f093fc5718797f92b1c8ae4aa44f6" upstream="refs/tags/android-8.0.0_r25" dest-branch="refs/tags/android-8.0.0_r25" />
-  <project name="RIDI_PAPER_PRO_ANDROID8" path="vendor/nxp-opensource/kernel_imx" remote="ridi" revision="40fc558493c471001bbd98ea1229de9277beef24" upstream="refs/heads/source-snapshot-20261007" dest-branch="source-snapshot-20261007" />
+  <project name="RIDI_PAPER_PRO_ANDROID8" path="vendor/nxp-opensource/kernel_imx" remote="ridi" revision="635ebef64354eb76d96fa8178002d08d429769b0" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
   <project name="platform/art" path="art" revision="483655d93125dd52f1bae4979ce7f2b66fde4b36" upstream="refs/tags/android-8.0.0_r25" dest-branch="refs/tags/android-8.0.0_r25" groups="pdk" />
   <project name="platform/bionic" path="bionic" revision="7fca0027c0412a7705f77108ee3bca7d9ea160e3" upstream="refs/tags/android-8.0.0_r25" dest-branch="refs/tags/android-8.0.0_r25" groups="pdk" />
   <project name="platform/build/blueprint" path="build/blueprint" revision="49f0b30730cb25f63edbb2a18d261e1477bfd0c9" upstream="refs/tags/android-8.0.0_r25" dest-branch="refs/tags/android-8.0.0_r25" groups="pdk,tradefed" />
@@ -614,7 +614,8 @@
   <project name="toolchain/binutils" revision="11715f84dc68420eb0df6200ca83c07cdef4b6ac" upstream="refs/tags/android-8.0.0_r25" dest-branch="refs/tags/android-8.0.0_r25" groups="pdk" />
   <project name="uboot-imx" path="vendor/nxp-opensource/uboot-imx" remote="imx-linux-sdk" revision="1429acdcfa903ec5e070f5d5ca05f14687823445" upstream="refs/tags/o8.0.0_1.0.0-ga" dest-branch="refs/tags/o8.0.0_1.0.0-ga" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-  <project name="RIDI_PAPER_PRO_ANDROID8_DEVICE" path="device/ridi/e70q10" remote="ridi" revision="9f4528d0827379337fd8ae889e4954032902f78c" upstream="refs/heads/source-snapshot-20261007" dest-branch="source-snapshot-20261007" />
-  <project name="RIDI_ANDROID8_BUILD_TOOLS" path="ridi-build-support" remote="ridi" revision="bd3899afc35db322c7b012993b3cfad260c86533" upstream="refs/heads/consolidated-20261007" dest-branch="consolidated-20261007" />
-  <project name="RIDI_ANDROID8_CHANGES" path="ridi-android-changes" remote="ridi" revision="46d549e561ec38fa09300aa68c8f35d058155549" upstream="refs/heads/consolidated-20261007" dest-branch="consolidated-20261007" />
+  <project name="RIDI_PAPER_PRO_ANDROID8_DEVICE" path="device/ridi/e70q10" remote="ridi" revision="908b94bc4a999313171b0a01fd1fb2913e9457e6" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
+  <project name="RIDI_ANDROID8_BUILD_TOOLS" path="ridi-build-support" remote="ridi" revision="099aa6b80590c2f08555ad6683e8605c5a750195" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
+  <project name="RIDI_ANDROID8_CHANGES" path="ridi-android-changes" remote="ridi" revision="6e4dc8b6f5503693c6f6d5900c0cb899e434877f" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
+  <project name="RIDI_PAPER_PRO_SD_TOOLS" path="ridi-sd-tools" remote="ridi" revision="42b7a15efae1ad10ccfe361c916d87faa83b8007" upstream="refs/heads/checkpoint-20261016" dest-branch="checkpoint-20261016" />
 </manifest>

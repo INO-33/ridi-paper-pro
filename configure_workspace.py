@@ -7,11 +7,14 @@ import sys
 workspace = Path(sys.argv[1]).resolve()
 source = workspace / 'android-sources/nxp-o8.0.0_1.0.0-ga'
 support = source / 'ridi-build-support'
+sd_tools = source / 'ridi-sd-tools'
 if not (support / 'build.sh').is_file():
     raise SystemExit('Build support checkout is missing')
+if not (sd_tools / 'verify_assets.py').is_file():
+    raise SystemExit('SD tools checkout is missing')
 for name in ['host-tools', 'tools', 'porting', 'scripts']:
     destination = workspace / name
-    target = support / name
+    target = (sd_tools if name == 'porting' else support) / name
     if destination.exists() or destination.is_symlink():
         if destination.is_symlink() and destination.resolve() == target.resolve():
             continue

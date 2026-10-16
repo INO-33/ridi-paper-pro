@@ -8,102 +8,93 @@
   },
   "new_environment_full_build_verified": false,
   "upstream_mirror_complete": false,
-  "runtime_validation": "No new build or physical validation in this checkpoint",
+  "runtime_validation": "Source preservation and structural checks only; no new full build or physical validation in this upload",
   "ignored_generated_upstream_change": "external/libxml2/python/MANIFEST",
   "source_working_trees_preserved": true,
-  "checkpoint": "consolidated-20261007",
+  "checkpoint": "checkpoint-20261016",
   "managed_repositories": [
     {
       "repository": "INO-33/RIDI_ANDROID8_MANIFEST",
       "purpose": "manifest",
-      "branch": "consolidated-20261007"
+      "branch": "checkpoint-20261016",
+      "readme_sha256": "077239c02fc13d32a169cca16900166f33023adc663dc61bb7b5b6f946a195ed"
     },
     {
       "repository": "INO-33/RIDI_ANDROID8_CHANGES",
       "purpose": "android-changes",
-      "commit": "46d549e561ec38fa09300aa68c8f35d058155549",
-      "branch": "consolidated-20261007"
+      "commit": "6e4dc8b6f5503693c6f6d5900c0cb899e434877f",
+      "branch": "checkpoint-20261016",
+      "readme_sha256": "16fa5d9cc04b14210e68e18660b4206af7f4fd5e58e195e2c6b01d23a898c179"
     },
     {
       "repository": "INO-33/RIDI_ANDROID8_BUILD_TOOLS",
       "purpose": "build-tools",
-      "commit": "bd3899afc35db322c7b012993b3cfad260c86533",
-      "branch": "consolidated-20261007"
+      "commit": "099aa6b80590c2f08555ad6683e8605c5a750195",
+      "branch": "checkpoint-20261016",
+      "readme_sha256": "bc03ab53b0fd90cdbfb03b4371bfc5fc6ddd6cc4592990ab0561a66285566c4c"
+    },
+    {
+      "repository": "INO-33/RIDI_PAPER_PRO_SD_TOOLS",
+      "purpose": "sd-tools",
+      "commit": "42b7a15efae1ad10ccfe361c916d87faa83b8007",
+      "branch": "checkpoint-20261016",
+      "readme_sha256": "675e2c50c49a7000a4905c74efa23d636b28f8da6393ce04a931a19190f3f885"
     },
     {
       "repository": "INO-33/RIDI_PAPER_PRO_ANDROID8_DEVICE",
       "purpose": "device/ridi/e70q10",
-      "commit": "9f4528d0827379337fd8ae889e4954032902f78c",
-      "branch": "source-snapshot-20261007"
+      "commit": "908b94bc4a999313171b0a01fd1fb2913e9457e6",
+      "branch": "checkpoint-20261016",
+      "readme_sha256": "c18bc8849535b50ca06889ce668f7f98254575dbde4f75c391cc261a04856949"
     },
     {
       "repository": "INO-33/RIDI_PAPER_PRO_ANDROID8",
       "purpose": "vendor/nxp-opensource/kernel_imx",
-      "commit": "40fc558493c471001bbd98ea1229de9277beef24",
-      "branch": "source-snapshot-20261007"
+      "commit": "635ebef64354eb76d96fa8178002d08d429769b0",
+      "branch": "checkpoint-20261016",
+      "readme_sha256": "e95f36244186f3e96cddb17266675c248960d59a8bea0e496bd280ee71b2b4b4"
     },
     {
       "repository": "INO-33/RIDI_CHROMIUM_M58",
       "purpose": "chromium",
-      "commit": "ea0431421ddfe47264648f03189763cf4bafa9ea",
-      "branch": "consolidated-20261007"
+      "commit": "f7ab562fe9bba3dc2ac4365ce94d9c03f151d832",
+      "branch": "checkpoint-20261016",
+      "readme_sha256": "e1d3528d5eec1029c58204505a9aee7772091c3af47437f31e1850864cefd08c"
     }
   ],
-  "managed_repository_count": 6,
+  "managed_repository_count": 7,
   "source_repositories": [
     {
       "path": "device/ridi/e70q10",
       "repository": "INO-33/RIDI_PAPER_PRO_ANDROID8_DEVICE",
       "url": "https://github.com/INO-33/RIDI_PAPER_PRO_ANDROID8_DEVICE.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "280ddb7ae98e4e4a1b66886d65046a2340fe1148",
-      "baseline": "280ddb7ae98e4e4a1b66886d65046a2340fe1148",
-      "commit": "9f4528d0827379337fd8ae889e4954032902f78c",
-      "tree": "d4d838f37fa97a5b231a4b131f6ba1f497cb401e",
-      "history": "original-parent",
-      "excluded": [
-        "MXCFB_UPDATE_SCREEN",
-        "power_diag/__pycache__/analyze.cpython-312.pyc",
-        "tools/__pycache__/prune_legacy_system_apps.cpython-312.pyc"
-      ]
+      "branch": "checkpoint-20261016",
+      "commit": "908b94bc4a999313171b0a01fd1fb2913e9457e6",
+      "tree": "5ebb618a7f420cb3ceaba90b639378478739aaff",
+      "original_working_head": "280ddb7ae98e4e4a1b66886d65046a2340fe1148"
     },
     {
       "path": "vendor/nxp-opensource/kernel_imx",
       "repository": "INO-33/RIDI_PAPER_PRO_ANDROID8",
       "url": "https://github.com/INO-33/RIDI_PAPER_PRO_ANDROID8.git",
-      "branch": "source-snapshot-20261007",
-      "upstream_head": "a48053edf8abe11f1137cefe309bf6418a3c52e6",
-      "baseline": "a48053edf8abe11f1137cefe309bf6418a3c52e6",
-      "commit": "40fc558493c471001bbd98ea1229de9277beef24",
-      "tree": "c029017e3efba9a4ae6447c4a2b76a9179d8448e",
-      "history": "original-parent",
-      "excluded": [
-        "arch/arm/configs/e70q10_defconfig.pre-rn5t618-power-backport.bak",
-        "arch/arm/configs/e70q10_defconfig.pre-rn5t618-power-backport.bak.pre-rn5t618-power-backport.bak",
-        "drivers/mfd/rn5t618.c.pre-rn5t618-power-backport.bak",
-        "drivers/power/supply/Kconfig.pre-rn5t618-power-backport.bak",
-        "drivers/power/supply/Makefile.pre-rn5t618-power-backport.bak",
-        "drivers/power/supply/rn5t618_power.c.pre-rn5t618-power-backport.bak",
-        "drivers/video/fbdev/mxc/mxc_epdc_fb.c.bak"
-      ]
+      "branch": "checkpoint-20261016",
+      "commit": "635ebef64354eb76d96fa8178002d08d429769b0",
+      "tree": "5dbcdb26503504ceabee0c01e28cb7f52b0d6d5e",
+      "original_working_head": "a48053edf8abe11f1137cefe309bf6418a3c52e6"
     },
     {
       "path": "chromium",
       "repository": "INO-33/RIDI_CHROMIUM_M58",
       "url": "https://github.com/INO-33/RIDI_CHROMIUM_M58.git",
-      "branch": "consolidated-20261007",
-      "upstream_head": "c254b52f7661657df3d56ff997030fc36988c9cd",
-      "baseline": "a0eac0a983673913ea16ea306dbaa4684a0af327",
-      "commit": "ea0431421ddfe47264648f03189763cf4bafa9ea",
-      "tree": "439b33bd21d5c56a7e6df3c4d53136748604b65b",
-      "history": "upstream-tree-baseline",
-      "excluded": [],
-      "dependency_package": "ridi-dependencies"
+      "branch": "checkpoint-20261016",
+      "commit": "f7ab562fe9bba3dc2ac4365ce94d9c03f151d832",
+      "tree": "d8ce31f0e05db7aa11bf8417229c9bda327c4963",
+      "original_working_head": "c254b52f7661657df3d56ff997030fc36988c9cd"
     }
   ],
-  "android_manifest_project_count": 599,
-  "build_support_commit": "bd3899afc35db322c7b012993b3cfad260c86533",
-  "android_changes_commit": "46d549e561ec38fa09300aa68c8f35d058155549",
+  "android_manifest_project_count": 600,
+  "build_support_commit": "099aa6b80590c2f08555ad6683e8605c5a750195",
+  "android_changes_commit": "6e4dc8b6f5503693c6f6d5900c0cb899e434877f",
   "android_changes_projects": 23,
   "chromium_dependency_changes": [
     {
@@ -147,5 +138,9 @@
     "INO-33/RIDI_ANDROID8_CHROMIUM_DEPS_SRC_THIRD_PARTY_SWIFTSHADER"
   ],
   "archived_repositories_required_for_restore": false,
-  "package_source_tree_equivalence_verified": true
+  "package_source_tree_equivalence_verified": true,
+  "checkpoint_date": "2026-10-16",
+  "main_repository": "INO-33/RIDI_ANDROID8_MANIFEST",
+  "sd_tools_commit": "42b7a15efae1ad10ccfe361c916d87faa83b8007",
+  "sd_tools_repository": "INO-33/RIDI_PAPER_PRO_SD_TOOLS"
 }
