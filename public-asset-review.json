@@ -277,10 +277,12 @@
     {
       "repository": "ridi-paper-pro-android-device",
       "path": "prebuilt/8189fs.ko",
-      "category": "review-module-source",
-      "reason": "Owner considers module inclusion potentially acceptable; confirm exact corresponding source, build method and redistribution basis; no blanket ban inferred",
+      "category": "open-source-module-corresponding-source",
+      "reason": "GPL RTL8189FS v4.3.24.10_24994.20171103. Module SHA256 matches local Tolino source build artifact. Earlier extracted/proprietary classification corrected; exact driver source and build configuration still need inclusion in seven-repository restore flow.",
       "bytes": 1826576,
-      "sha256": "74c94a24f1a31e0f3e0a1d1b78fbe37965e7fd18b570fdc32186938c4329041c"
+      "sha256": "74c94a24f1a31e0f3e0a1d1b78fbe37965e7fd18b570fdc32186938c4329041c",
+      "local_source_path": "reference-sources/tolino-epos/kernel_imx/drivers/net/wireless/rtl8189fs",
+      "public_driver_example": "https://github.com/jwrdegoede/rtl8189ES_linux/tree/rtl8189fs"
     },
     {
       "repository": "ridi-paper-pro-android-device",
