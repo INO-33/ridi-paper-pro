@@ -10,7 +10,7 @@ log="$workspace/.orchestrator/logs/source-prepare-$(date +%Y%m%d-%H%M%S).log"
 if (
     cd "$source_tree"
     python3 "$manifest/bin/repo" init \
-        -u https://github.com/INO-33/RIDI_ANDROID8_MANIFEST.git \
+        -u https://github.com/INO-33/ridi-paper-pro.git \
         -b checkpoint-20261016 -m default.xml \
         --repo-url=https://gerrit.googlesource.com/git-repo \
         --repo-rev=35bbf701d04de5c6a71937279bc3d16f6ce36808 \

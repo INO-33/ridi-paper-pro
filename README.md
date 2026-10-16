@@ -12,13 +12,13 @@ RIDI용 시스템 UI와 WebView를 구성합니다. 이 저장소에서 전체 �
 
 | 저장소 | 역할 |
 |---|---|
-| **[RIDI_ANDROID8_MANIFEST](https://github.com/INO-33/RIDI_ANDROID8_MANIFEST)** | **메인** · 전체 소스 버전, 준비 스크립트, 복원 검증 |
-| [RIDI_PAPER_PRO_ANDROID8](https://github.com/INO-33/RIDI_PAPER_PRO_ANDROID8) | Linux 커널 · EPDC, 입력, 조명, PMIC·충전·배터리·RTC 드라이버 |
-| [RIDI_PAPER_PRO_ANDROID8_DEVICE](https://github.com/INO-33/RIDI_PAPER_PRO_ANDROID8_DEVICE) | 기기 설정 · 제품 정의, RIDI 앱, 오버레이, 필수 기기 자산 |
-| [RIDI_ANDROID8_CHANGES](https://github.com/INO-33/RIDI_ANDROID8_CHANGES) | Android 수정 통합 · 프레임워크, SurfaceFlinger, HAL, 시스템 앱 |
-| [RIDI_CHROMIUM_M58](https://github.com/INO-33/RIDI_CHROMIUM_M58) | 커스텀 WebView · Chromium 58과 Breakpad·SwiftShader 변경 |
-| [RIDI_ANDROID8_BUILD_TOOLS](https://github.com/INO-33/RIDI_ANDROID8_BUILD_TOOLS) | 개발·배포 도구 · 호스트 자산, Android·WebView 빌드 래퍼 |
-| [RIDI_PAPER_PRO_SD_TOOLS](https://github.com/INO-33/RIDI_PAPER_PRO_SD_TOOLS) | SD/eMMC 전용 · CLI·GUI, RAM 도구, Windows 배포 빌더 |
+| **[ridi-paper-pro](https://github.com/INO-33/ridi-paper-pro)** | **메인** · 전체 소스 버전, 준비 스크립트, 복원 검증 |
+| [ridi-paper-pro-linux-kernel](https://github.com/INO-33/ridi-paper-pro-linux-kernel) | Linux 커널 · EPDC, 입력, 조명, PMIC·충전·배터리·RTC 드라이버 |
+| [ridi-paper-pro-android-device](https://github.com/INO-33/ridi-paper-pro-android-device) | 기기 설정 · 제품 정의, RIDI 앱, 오버레이, 필수 기기 자산 |
+| [ridi-paper-pro-android-patches](https://github.com/INO-33/ridi-paper-pro-android-patches) | Android 수정 통합 · 프레임워크, SurfaceFlinger, HAL, 시스템 앱 |
+| [ridi-paper-pro-webview](https://github.com/INO-33/ridi-paper-pro-webview) | 커스텀 WebView · Chromium 58과 Breakpad·SwiftShader 변경 |
+| [ridi-paper-pro-dev-tools](https://github.com/INO-33/ridi-paper-pro-dev-tools) | 개발 보조 도구 · 호스트 자산, Android·WebView 빌드 래퍼 |
+| [ridi-paper-pro-sd-tools](https://github.com/INO-33/ridi-paper-pro-sd-tools) | SD/eMMC 전용 · CLI·GUI, RAM 도구, Windows 배포 빌더 |
 
 과거에 개별 구성 요소로 나눴던 25개 저장소는 통합 후 삭제했습니다.
 현재 소스 복원과 변경 관리는 위 7개 저장소를 사용합니다.
@@ -47,7 +47,7 @@ Linux x86-64에서 Git, Python 3, GitHub CLI와 소스·빌드 출력용 디스�
 ```sh
 gh auth status
 gh auth setup-git
-gh repo clone INO-33/RIDI_ANDROID8_MANIFEST ridi-manifest
+gh repo clone INO-33/ridi-paper-pro ridi-manifest
 cd ridi-manifest
 ./prepare.sh "$HOME/ridi-workspace"
 source "$HOME/ridi-workspace/env.sh"
@@ -77,8 +77,8 @@ Java 8 런타임과 Python 2 래퍼는 빌드 도구 저장소에서 제공합�
 ## WebView와 업데이트 도구
 
 - Android 제품 빌드는 기기 저장소의 고정된 WebView APK를 사용합니다. Chromium
-  소스 재구성·별도 빌드는 [WebView 저장소](https://github.com/INO-33/RIDI_CHROMIUM_M58)를 확인하세요.
-- SD/eMMC 도구와 Windows GUI 소스는 [SD 도구 저장소](https://github.com/INO-33/RIDI_PAPER_PRO_SD_TOOLS)의
+  소스 재구성·별도 빌드는 [WebView 저장소](https://github.com/INO-33/ridi-paper-pro-webview)를 확인하세요.
+- SD/eMMC 도구와 Windows GUI 소스는 [SD 도구 저장소](https://github.com/INO-33/ridi-paper-pro-sd-tools)의
   `porting/e70q10/emmc-tool/`에 있습니다. 업데이트·업그레이드·백업 범위는 해당
   `GUI_README.md`와 `README.md`를 확인합니다.
 - 빌드 이미지와 전체 eMMC 백업은 별도 산출물로 보관합니다. Git에는 소스,
@@ -88,7 +88,7 @@ Java 8 런타임과 Python 2 래퍼는 빌드 도구 저장소에서 제공합�
 
 이번 체크포인트는 최신 커널·전원 관리·절전/종료 화면·시스템 UI·배포 도구 소스를
 보존합니다. 각 저장소의 커밋은 `release-lock.json`, Android 원본 버전은
-`default.xml`, 통합 패치의 목표 소스 트리는 `RIDI_ANDROID8_CHANGES/projects.json`에
+`default.xml`, 통합 패치의 목표 소스 트리는 `ridi-paper-pro-android-patches/projects.json`에
 기록됩니다. 커밋/소스 트리/자산 해시 검증과 전체 제품의 실기기 검증은 구분합니다.
 
 새 환경에서 Android·Chromium 전체 재빌드까지 검증한 릴리즈는 아닙니다. 특히
