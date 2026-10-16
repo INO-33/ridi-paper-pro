@@ -1,0 +1,37 @@
+[
+  {
+    "package": "libtinfo5",
+    "version": "6.3-2ubuntu0.3",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.3-2ubuntu0.3_amd64.deb",
+    "sha256": "4df4288404108f1a156d014e8764a064e977e34e6d44931ab60451694c03c90d",
+    "bytes": 100004
+  },
+  {
+    "package": "libncurses5",
+    "version": "6.3-2ubuntu0.3",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.3-2ubuntu0.3_amd64.deb",
+    "sha256": "58da01991712c6856af0658dc5e9cb533c1a6854ab950055ade185e35bc9c276",
+    "bytes": 106866
+  },
+  {
+    "package": "libpython2.7-minimal",
+    "version": "2.7.18-13ubuntu1.5",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/universe/p/python2.7/libpython2.7-minimal_2.7.18-13ubuntu1.5_amd64.deb",
+    "sha256": "350c720e95475850b1838e11320de5461c58f8aeafb923b935e9ae54b7731aae",
+    "bytes": 347366
+  },
+  {
+    "package": "python2.7-minimal",
+    "version": "2.7.18-13ubuntu1.5",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/universe/p/python2.7/python2.7-minimal_2.7.18-13ubuntu1.5_amd64.deb",
+    "sha256": "5a8cc3e4ad31e2f5ada7c8be8131a577044a779d4b0c81ba31ae46b76ce758de",
+    "bytes": 1400042
+  },
+  {
+    "package": "libpython2.7-stdlib",
+    "version": "2.7.18-13ubuntu1.5",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/universe/p/python2.7/libpython2.7-stdlib_2.7.18-13ubuntu1.5_amd64.deb",
+    "sha256": "1098942dda0aabbc0391dff376ae1db98afce223ccb86da0cebdddcb10aa6f69",
+    "bytes": 1977332
+  }
+]

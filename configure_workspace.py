@@ -25,9 +25,14 @@ for name in ['android-out', 'deliverables', '.orchestrator/logs']:
 env = workspace / 'env.sh'
 content = '\n'.join([
     'export RIDI_WORKSPACE=' + shlex.quote(str(workspace)),
+    'export RIDI_MANIFEST_DIR=' + shlex.quote(str(Path(__file__).resolve().parent)),
     'export ANDROID_BUILD_TOP=' + shlex.quote(str(source)),
     'export JAVA_HOME=' + shlex.quote(str(support / 'host-tools/jdk8-local/usr/lib/jvm/java-8-openjdk-amd64')),
     'export RIDI_ANDROID8_TOOL_BIN=' + shlex.quote(str(support / 'host-tools/android8-bin')),
+    'export CHROMIUM_SRC_ROOT=' + shlex.quote(str(workspace / 'chromium-m58/src')),
+    'export DEPOT_TOOLS_ROOT=' + shlex.quote(str(workspace / 'depot_tools')),
+    'export RIDI_HOST_COMPAT=' + shlex.quote(str(workspace / 'host-compat')),
+    'export LD_LIBRARY_PATH="$RIDI_HOST_COMPAT/lib/x86_64-linux-gnu:$RIDI_HOST_COMPAT/usr/lib/x86_64-linux-gnu${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"',
     'export PATH="$RIDI_ANDROID8_TOOL_BIN:$JAVA_HOME/bin:$PATH"',
     '',
 ])

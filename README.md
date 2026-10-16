@@ -40,6 +40,10 @@ Android 원본은 AOSP/NXP의 여러 프로젝트로 내려받습니다. RIDI �
 
 ## 소스 받기
 
+처음 구성하는 개발자는 **[개발환경 구축 안내](DEVELOPMENT.md)**부터 따라갑니다.
+호스트 패키지 설치, 사전 검사, 소스 준비, Android·커널·WebView·SD GUI 개발 순서를
+설명합니다. 공개 전 제외/확인 자산은 **[공개 자산 목록](PUBLIC_ASSETS.md)**에 정리했습니다.
+
 Linux x86-64에서 Git, Python 3, GitHub CLI와 소스·빌드 출력용 디스크 공간이
 필요합니다. 비공개 저장소를 읽을 수 있는 GitHub 계정으로 인증한 뒤 진행합니다.
 준비 스크립트에는 Repo 실행기가 포함되어 있습니다.
@@ -49,6 +53,7 @@ gh auth status
 gh auth setup-git
 gh repo clone INO-33/ridi-paper-pro ridi-manifest
 cd ridi-manifest
+python3 setup-host.py --profile all --install
 ./prepare.sh "$HOME/ridi-workspace"
 source "$HOME/ridi-workspace/env.sh"
 ```
@@ -60,12 +65,15 @@ source "$HOME/ridi-workspace/env.sh"
 
 ## Android 빌드
 
+`build.sh`는 실제 Python 2/Java 8/ARM 컴파일러 실행과 호스트 패키지 검사를 먼저 수행합니다.
+
 ```sh
 "$ANDROID_BUILD_TOP/ridi-build-support/build.sh" check e70q10_reference-eng
 "$ANDROID_BUILD_TOP/ridi-build-support/build.sh" build e70q10_reference-eng bootimage systemimage vendorimage
 ```
 
-Java 8 런타임과 Python 2 래퍼는 빌드 도구 저장소에서 제공합니다. 기본 출력은
+Java 8 런타임과 Python 2 래퍼는 빌드 도구 저장소에서 제공합니다. `prepare.sh`는
+완전한 Python 2와 구형 Clang 호환 라이브러리도 작업 폴더에 준비합니다. 기본 출력은
 `$RIDI_WORKSPACE/android-out/e70q10_reference/`입니다. 기존 출력 경로를 사용할 때는
 `E70Q10_OUT_DIR`로 지정합니다. 프레임워크와 gralloc의 인터페이스가 함께 바뀐
 체크포인트는 `system.img`와 `vendor.img`를 같은 빌드에서 준비하고, 커널 변경은
@@ -88,7 +96,7 @@ Java 8 런타임과 Python 2 래퍼는 빌드 도구 저장소에서 제공합�
 
 이번 체크포인트는 최신 커널·전원 관리·절전/종료 화면·시스템 UI·배포 도구 소스를
 보존합니다. 각 저장소의 커밋은 `release-lock.json`, Android 원본 버전은
-`default.xml`, 통합 패치의 목표 소스 트리는 `ridi-paper-pro-android-patches/projects.json`에
+`default.xml`, 통합 패치의 목표 소스 트리는 작업 소스의 `ridi-android-changes/projects.json`에
 기록됩니다. 커밋/소스 트리/자산 해시 검증과 전체 제품의 실기기 검증은 구분합니다.
 
 새 환경에서 Android·Chromium 전체 재빌드까지 검증한 릴리즈는 아닙니다. 특히
