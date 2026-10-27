@@ -41,5 +41,6 @@
     "New-host complete Android and WebView build",
     "Exact source/configuration reproduction of preserved SD runtime and WebView APK",
     "Exact third-party device-asset redistribution terms and complete history/binary audit"
-  ]
+  ],
+  "independent_github_restore_report": "github-restore-validation.json"
 }

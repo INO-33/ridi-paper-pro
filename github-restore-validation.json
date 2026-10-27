@@ -1,0 +1,64 @@
+{
+  "repositories": [
+    {
+      "repository": "INO-33/ridi-paper-pro-android-patches",
+      "purpose": "android-changes",
+      "commit": "295600cd3bddf83a3e19cdf8a2339e5af5a0ecc6",
+      "readme_sha256": "f6d3cf334cc6046625ecddca3a88a7596a4bd007aaa5d0eafc71c9f31d1d57c8",
+      "checkout": true,
+      "local_alternates": false
+    },
+    {
+      "repository": "INO-33/ridi-paper-pro-dev-tools",
+      "purpose": "build-tools",
+      "commit": "1092dfe6966c4a9ac15a0c4d966644556cc90adc",
+      "readme_sha256": "95ff8233bdf02990ef05d108e259431757f55274d7d1a4865f720e4944d43f68",
+      "checkout": true,
+      "local_alternates": false
+    },
+    {
+      "repository": "INO-33/ridi-paper-pro-sd-tools",
+      "purpose": "sd-tools",
+      "commit": "ba124bc003c413e70fefec2d2bae9140dde2ca0b",
+      "readme_sha256": "8077ce848fd797bf2353dbf8e5e18f159521e42234b011ad14b087889f453c92",
+      "checkout": true,
+      "local_alternates": false
+    },
+    {
+      "repository": "INO-33/ridi-paper-pro-android-device",
+      "purpose": "device/ridi/e70q10",
+      "commit": "a34eda737a0aeb31cb2e68dd5c5daf2ed91c8840",
+      "readme_sha256": "02aba2905923f1fabd5e023b488700e3ebf574caa1fe063bc651957b1cafd380",
+      "checkout": true,
+      "local_alternates": false
+    },
+    {
+      "repository": "INO-33/ridi-paper-pro-linux-kernel",
+      "purpose": "vendor/nxp-opensource/kernel_imx",
+      "commit": "41074b3cae542a3a43f17b2f0a2f7f59a324a8d1",
+      "readme_sha256": "27e972547ec7787f96c4ebde2151fc0b737246501df6ae8991dacbc607691173",
+      "checkout": true,
+      "local_alternates": false
+    },
+    {
+      "repository": "INO-33/ridi-paper-pro-webview",
+      "purpose": "chromium",
+      "commit": "392bec2c2bdb2420de5c8454bb2165f5b1d54596",
+      "readme_sha256": "9bff6a79d4fc01e978f1a86047728ac04969a9987188be53e7c77ad8d306bf95",
+      "checkout": false,
+      "local_alternates": false
+    },
+    {
+      "repository": "INO-33/ridi-paper-pro",
+      "purpose": "manifest",
+      "commit": "26f8ef8a81e089a62cd4c00eff762c1264f0601f",
+      "readme_sha256": "90f5ac607a026c82f1c638bc55da77e93f1aab135c2ff716200a026a3a003d5c",
+      "checkout": true,
+      "local_alternates": false
+    }
+  ],
+  "management_assets_verified": true,
+  "complete_android_600_project_sync": false,
+  "full_build": false,
+  "note": "All seven source checkpoints fetched independently from GitHub. The main repository may have a documentation-only successor adding this evidence; dependency/source pins are unchanged."
+}

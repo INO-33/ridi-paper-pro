@@ -1,0 +1,254 @@
+[
+  {
+    "path": "init",
+    "bytes": 2105
+  },
+  {
+    "path": "bin/auto-update",
+    "bytes": 7789
+  },
+  {
+    "path": "bin/backup-copy",
+    "bytes": 17584
+  },
+  {
+    "path": "bin/backup-current",
+    "bytes": 6243
+  },
+  {
+    "path": "bin/busybox",
+    "bytes": 1965780
+  },
+  {
+    "path": "bin/cat",
+    "bytes": 7
+  },
+  {
+    "path": "bin/console-shell",
+    "bytes": 5496
+  },
+  {
+    "path": "bin/countbytes",
+    "bytes": 6188
+  },
+  {
+    "path": "bin/cut",
+    "bytes": 7
+  },
+  {
+    "path": "bin/dd",
+    "bytes": 7
+  },
+  {
+    "path": "bin/device-layout",
+    "bytes": 12708
+  },
+  {
+    "path": "bin/eink-ui",
+    "bytes": 16288
+  },
+  {
+    "path": "bin/gzip",
+    "bytes": 7
+  },
+  {
+    "path": "bin/initial-install",
+    "bytes": 5709
+  },
+  {
+    "path": "bin/install-test",
+    "bytes": 2615
+  },
+  {
+    "path": "bin/ln",
+    "bytes": 7
+  },
+  {
+    "path": "bin/ls",
+    "bytes": 7
+  },
+  {
+    "path": "bin/mdev",
+    "bytes": 7
+  },
+  {
+    "path": "bin/mkdir",
+    "bytes": 7
+  },
+  {
+    "path": "bin/mkfifo",
+    "bytes": 7
+  },
+  {
+    "path": "bin/mount",
+    "bytes": 7
+  },
+  {
+    "path": "bin/ps",
+    "bytes": 7
+  },
+  {
+    "path": "bin/rm",
+    "bytes": 7
+  },
+  {
+    "path": "bin/rmdir",
+    "bytes": 7
+  },
+  {
+    "path": "bin/sh",
+    "bytes": 7
+  },
+  {
+    "path": "bin/sha256sum",
+    "bytes": 7
+  },
+  {
+    "path": "bin/sleep",
+    "bytes": 7
+  },
+  {
+    "path": "bin/stat",
+    "bytes": 7
+  },
+  {
+    "path": "bin/stream-write",
+    "bytes": 8244
+  },
+  {
+    "path": "bin/stty",
+    "bytes": 7
+  },
+  {
+    "path": "bin/sync",
+    "bytes": 7
+  },
+  {
+    "path": "bin/ui-status",
+    "bytes": 313
+  },
+  {
+    "path": "bin/updater",
+    "bytes": 6629
+  },
+  {
+    "path": "bin/waveform-extract",
+    "bytes": 6980
+  },
+  {
+    "path": "bin/wc",
+    "bytes": 7
+  },
+  {
+    "path": "etc/file_contexts",
+    "bytes": 30291
+  },
+  {
+    "path": "etc/runtime-sha256.json",
+    "bytes": 3590
+  },
+  {
+    "path": "etc/updater-ui.bin",
+    "bytes": 1152800
+  },
+  {
+    "path": "system/bin/e2fsck",
+    "bytes": 183612
+  },
+  {
+    "path": "system/bin/linker",
+    "bytes": 846924
+  },
+  {
+    "path": "system/bin/make_ext4fs",
+    "bytes": 20296
+  },
+  {
+    "path": "system/lib/ld-android.so",
+    "bytes": 5752
+  },
+  {
+    "path": "system/lib/libbase.so",
+    "bytes": 63124
+  },
+  {
+    "path": "system/lib/libc++.so",
+    "bytes": 599072
+  },
+  {
+    "path": "system/lib/libc.so",
+    "bytes": 774456
+  },
+  {
+    "path": "system/lib/libcrypto.so",
+    "bytes": 705972
+  },
+  {
+    "path": "system/lib/libcutils.so",
+    "bytes": 58928
+  },
+  {
+    "path": "system/lib/libdl.so",
+    "bytes": 15464
+  },
+  {
+    "path": "system/lib/libext2_blkid.so",
+    "bytes": 44456
+  },
+  {
+    "path": "system/lib/libext2_com_err.so",
+    "bytes": 20332
+  },
+  {
+    "path": "system/lib/libext2_e2p.so",
+    "bytes": 32844
+  },
+  {
+    "path": "system/lib/libext2_quota.so",
+    "bytes": 46124
+  },
+  {
+    "path": "system/lib/libext2_uuid.so",
+    "bytes": 20468
+  },
+  {
+    "path": "system/lib/libext2fs.so",
+    "bytes": 211660
+  },
+  {
+    "path": "system/lib/libext4_utils.so",
+    "bytes": 74932
+  },
+  {
+    "path": "system/lib/libkeyutils.so",
+    "bytes": 15016
+  },
+  {
+    "path": "system/lib/liblog.so",
+    "bytes": 81520
+  },
+  {
+    "path": "system/lib/libm.so",
+    "bytes": 140916
+  },
+  {
+    "path": "system/lib/libpackagelistparser.so",
+    "bytes": 16040
+  },
+  {
+    "path": "system/lib/libpcre2.so",
+    "bytes": 99080
+  },
+  {
+    "path": "system/lib/libselinux.so",
+    "bytes": 73132
+  },
+  {
+    "path": "system/lib/libsparse.so",
+    "bytes": 33436
+  },
+  {
+    "path": "system/lib/libz.so",
+    "bytes": 98212
+  }
+]

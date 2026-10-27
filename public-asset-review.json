@@ -1206,7 +1206,7 @@
       "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     }
   ],
-  "runtime_members_file": "development-validation.json (runtime inventory summary)",
+  "runtime_members_file": "runtime-members.json",
   "owner_decision_update": "New project-owned apps/helpers Apache-2.0; retain existing third-party licenses. Existing PAPER PRO owners are target users. No project reuse grant for device-origin assets; exclude them from other-device ports.",
   "waveform_decision_update": "2026-10-16: owner prefers retaining waveform based on public examples; classify exact file redistribution terms as unverified, without asserting legality either way. Repository remains private.",
   "credential_pattern_scan": {
