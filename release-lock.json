@@ -8,58 +8,58 @@
   },
   "new_environment_full_build_verified": false,
   "upstream_mirror_complete": false,
-  "runtime_validation": "Source preservation and structural checks only; no new full build or physical validation in this upload",
+  "runtime_validation": "25 patch trees restored and reapplied; device/kernel fresh local working checkouts; Java8/Python2+SSL/GCC/Clang runtime probes. No complete new-host download/build or device validation.",
   "ignored_generated_upstream_change": "external/libxml2/python/MANIFEST",
   "source_working_trees_preserved": true,
-  "checkpoint": "checkpoint-20261016",
+  "checkpoint": "checkpoint-20261027",
   "managed_repositories": [
     {
       "repository": "INO-33/ridi-paper-pro",
       "purpose": "manifest",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "4d3ffab4c04e0b31b1a6599e71505777b6acb95a47635cf68b92682db1fb4ab7"
+      "readme_sha256": "90f5ac607a026c82f1c638bc55da77e93f1aab135c2ff716200a026a3a003d5c"
     },
     {
       "repository": "INO-33/ridi-paper-pro-android-patches",
       "purpose": "android-changes",
-      "commit": "c45e57f6c0124685d615c3b425e0b02891b39eb7",
+      "commit": "295600cd3bddf83a3e19cdf8a2339e5af5a0ecc6",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "615635d7ece7c44ab5fac3e715f283110dc7aea744b60231438e79f40203eac4"
+      "readme_sha256": "f6d3cf334cc6046625ecddca3a88a7596a4bd007aaa5d0eafc71c9f31d1d57c8"
     },
     {
       "repository": "INO-33/ridi-paper-pro-dev-tools",
       "purpose": "build-tools",
-      "commit": "b17b6f8b8b685459f078258845e05bbb908b74f6",
+      "commit": "1092dfe6966c4a9ac15a0c4d966644556cc90adc",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "ffdc598f7b7a8945148ace986a8ce08c22918c10c0f30042de35204401bfd54e"
+      "readme_sha256": "95ff8233bdf02990ef05d108e259431757f55274d7d1a4865f720e4944d43f68"
     },
     {
       "repository": "INO-33/ridi-paper-pro-sd-tools",
       "purpose": "sd-tools",
-      "commit": "726cb7f241e9582b5926387cab4074606b7ce462",
+      "commit": "ba124bc003c413e70fefec2d2bae9140dde2ca0b",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "9076444b129e7b2cbe6839bf5269785621a3a6ee5ffd0caa61520f14b7492b24"
+      "readme_sha256": "8077ce848fd797bf2353dbf8e5e18f159521e42234b011ad14b087889f453c92"
     },
     {
       "repository": "INO-33/ridi-paper-pro-android-device",
       "purpose": "device/ridi/e70q10",
-      "commit": "e83bbbe7cc292d9a67caa2c62709ac2808c51856",
+      "commit": "a34eda737a0aeb31cb2e68dd5c5daf2ed91c8840",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "62737ddbef4ac1f796360caa70c2d64fd9f4bf04022c1757ec4097a36b8a5285"
+      "readme_sha256": "02aba2905923f1fabd5e023b488700e3ebf574caa1fe063bc651957b1cafd380"
     },
     {
       "repository": "INO-33/ridi-paper-pro-linux-kernel",
       "purpose": "vendor/nxp-opensource/kernel_imx",
-      "commit": "e0997a9f882e4308f2b390744f00b214b36d838d",
+      "commit": "41074b3cae542a3a43f17b2f0a2f7f59a324a8d1",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "59d61d12e285a5e4bf5299046b1eb2ef55a6732a5cc1d921513b292d15cb6a28"
+      "readme_sha256": "27e972547ec7787f96c4ebde2151fc0b737246501df6ae8991dacbc607691173"
     },
     {
       "repository": "INO-33/ridi-paper-pro-webview",
       "purpose": "chromium",
-      "commit": "43b07f94cc6ad7cd803f7c4b513b09f8753141d5",
+      "commit": "392bec2c2bdb2420de5c8454bb2165f5b1d54596",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "810718fedfa37a141b3727fecc5e54af62f69d1d86718552a0518327dcf8be90"
+      "readme_sha256": "9bff6a79d4fc01e978f1a86047728ac04969a9987188be53e7c77ad8d306bf95"
     }
   ],
   "managed_repository_count": 7,
@@ -69,8 +69,8 @@
       "repository": "INO-33/ridi-paper-pro-android-device",
       "url": "https://github.com/INO-33/ridi-paper-pro-android-device.git",
       "branch": "checkpoint-20261016",
-      "commit": "e83bbbe7cc292d9a67caa2c62709ac2808c51856",
-      "tree": "fd5ebb8462567a03ebdd165117ca690a5e26ac5e",
+      "commit": "a34eda737a0aeb31cb2e68dd5c5daf2ed91c8840",
+      "tree": "a0c8638ac8db792c94cb090e17f10efe864d6df5",
       "original_working_head": "280ddb7ae98e4e4a1b66886d65046a2340fe1148"
     },
     {
@@ -78,8 +78,8 @@
       "repository": "INO-33/ridi-paper-pro-linux-kernel",
       "url": "https://github.com/INO-33/ridi-paper-pro-linux-kernel.git",
       "branch": "checkpoint-20261016",
-      "commit": "e0997a9f882e4308f2b390744f00b214b36d838d",
-      "tree": "5e2f42f21e84f1424c7945033fdc6df74b5e55cc",
+      "commit": "41074b3cae542a3a43f17b2f0a2f7f59a324a8d1",
+      "tree": "ed739bb373b608a903fb71ee68bcc008b7df2112",
       "original_working_head": "a48053edf8abe11f1137cefe309bf6418a3c52e6"
     },
     {
@@ -87,14 +87,14 @@
       "repository": "INO-33/ridi-paper-pro-webview",
       "url": "https://github.com/INO-33/ridi-paper-pro-webview.git",
       "branch": "checkpoint-20261016",
-      "commit": "43b07f94cc6ad7cd803f7c4b513b09f8753141d5",
-      "tree": "18672e6e4fb03d77c9cfe18e063431306d34b0be",
+      "commit": "392bec2c2bdb2420de5c8454bb2165f5b1d54596",
+      "tree": "2e7a2127f1c7ba3a778d37a9ab905570e74bab63",
       "original_working_head": "c254b52f7661657df3d56ff997030fc36988c9cd"
     }
   ],
   "android_manifest_project_count": 600,
-  "build_support_commit": "b17b6f8b8b685459f078258845e05bbb908b74f6",
-  "android_changes_commit": "c45e57f6c0124685d615c3b425e0b02891b39eb7",
+  "build_support_commit": "1092dfe6966c4a9ac15a0c4d966644556cc90adc",
+  "android_changes_commit": "295600cd3bddf83a3e19cdf8a2339e5af5a0ecc6",
   "android_changes_projects": 23,
   "chromium_dependency_changes": [
     {
@@ -107,14 +107,14 @@
       "path": "src/third_party/swiftshader",
       "upstream_url": "https://swiftshader.googlesource.com/SwiftShader.git",
       "base_commit": "91da6b00584afd7dcaed66da88e2b617429b3950",
-      "result_tree": "883e4230c96001d2760b884b5137958eee6de137"
+      "result_tree": "0a5c0edf762c1f350a8fbc919d90c320ccbad16b"
     }
   ],
   "archived_repositories_required_for_restore": false,
   "package_source_tree_equivalence_verified": true,
-  "checkpoint_date": "2026-10-16",
+  "checkpoint_date": "2026-10-27",
   "main_repository": "INO-33/ridi-paper-pro",
-  "sd_tools_commit": "726cb7f241e9582b5926387cab4074606b7ce462",
+  "sd_tools_commit": "ba124bc003c413e70fefec2d2bae9140dde2ca0b",
   "sd_tools_repository": "INO-33/ridi-paper-pro-sd-tools",
   "superseded_deleted_repositories": [
     "INO-33/RIDI_ANDROID8_BUILD_MAKE",
@@ -150,6 +150,9 @@
     "packages_sha256": "8aa6fd447f1ebe0369ebf8109c5ea2d90c87b9bd0ec85fd49ff3f6ea51a008ec",
     "legacy_packages_sha256": "9bd987af70a3370a550d956b2cf8bbdacb891117f3a0ca7996ad99972f4eb7e2",
     "public_asset_inventory": "public-asset-review.json",
-    "full_build_verified": false
-  }
+    "full_build_verified": false,
+    "license_policy": "LICENSING.md",
+    "device_asset_policy": "restricted-device-assets.json"
+  },
+  "development_validation": "development-validation.json"
 }

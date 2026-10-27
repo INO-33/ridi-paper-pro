@@ -4,6 +4,9 @@
 커널, WebView, SD 도구의 경로를 하나의 작업 폴더 아래에 구성합니다. 저장소를
 공개로 전환하는 절차는 아닙니다. 공개 전 자산 목록은 [PUBLIC_ASSETS.md](PUBLIC_ASSETS.md)를 확인합니다.
 
+기존 리디 페이퍼 프로 사용자를 위한 환경입니다. [LICENSING.md](LICENSING.md)의 코드 라이선스와
+기기 자산 원칙을 확인하세요. 타 기기 포팅에서는 기기 유래 자료를 제외합니다.
+
 ## 1. 호스트와 공간
 
 문서화한 호스트는 **Ubuntu 24.04 amd64 / Linux x86-64 / Python 3.10 이상**입니다.
@@ -104,11 +107,18 @@ import와 실제 실행을 확인합니다. 시스템 `/usr/bin/python`을 변�
 
 ```sh
 export E70Q10_BUILD_JOBS=4
+"$ANDROID_BUILD_TOP/ridi-build-support/build.sh" build e70q10_reference-eng kernelimage
+python3 "$ANDROID_BUILD_TOP/ridi-build-support/build-wifi.py" --check
+python3 "$ANDROID_BUILD_TOP/ridi-build-support/build-wifi.py"
+export E70Q10_WIFI_MODULE="${E70Q10_OUT_DIR:-$RIDI_WORKSPACE/android-out/e70q10_reference}/wifi/8189fs.ko"
 "$ANDROID_BUILD_TOP/ridi-build-support/build.sh" build e70q10_reference-eng bootimage systemimage vendorimage
 ```
 
 기본 출력 루트는 `$RIDI_WORKSPACE/android-out/e70q10_reference`이고, 제품 이미지는
 그 아래 `target/product/e70q10/`에 생성됩니다. `E70Q10_OUT_DIR`로 출력 루트를 바꿀 수 있습니다.
+먼저 `kernelimage`를 만들고 대응 GPL Wi-Fi 소스로 모듈을 생성합니다. `build-wifi.py`는
+소스 외부의 임시 복사본에서 모듈을 빌드하고 vermagic을 확인합니다. 커널을 바꾼 뒤에는
+모듈을 다시 만들고 경로를 지정하세요. 기존 prebuilt의 ABI 일치를 가정하지 않습니다.
 커널 변경도 이 제품의 `bootimage` 빌드에 반영됩니다. framework/gralloc 변경은
 같은 빌드의 system/vendor를 함께 사용합니다. 이 명령은 플래시하지 않습니다.
 
@@ -186,3 +196,8 @@ GUI 표시는 그래픽 세션이 필요합니다. `Tk import` 검사는 GUI 표
 설치 명령 생성, 사전 검사, 경로 구성, 오류 시 중단, 스크립트 구문과 고정 버전/자산
 검사를 검증합니다. 새 호스트에서 수백 GB의 전체 다운로드와 Android/WebView 전체
 빌드까지 완료했다는 의미는 아닙니다. 실기기 설치·물리 검증도 별도입니다.
+
+2026-10-27 점검 결과: 25개 패치 복원·재적용과 호스트 런타임 실행 검사는 통과했습니다.
+현재 점검 PC에서 미설치로 보고된 `lib32z1-dev`, `libelf-dev`, `fastboot`는 설치 목록에
+포함되어 있습니다. 시스템 패키지 설치나 전체 컴파일은 이번 점검에서 수행하지 않았습니다.
+상세 범위는 [development-validation.json](development-validation.json)을 확인합니다.

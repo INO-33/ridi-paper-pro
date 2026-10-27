@@ -1,0 +1,1290 @@
+{
+  "checkpoint": "2026-10-27",
+  "target_users": "Existing RIDI PAPER PRO owners",
+  "code_license_not_restricted": true,
+  "files": [
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "assets/bootanimation-stock-1404x1872.zip",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 52344,
+      "sha256": "2e7e2fdf2a5bc36bf108b54014c87900840e4005b4f53a00fa3f62dcc1c9f5c2",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "assets/bootanimation-stock-702x936.zip",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 43622,
+      "sha256": "8986c776036f08826ababf9b71c3a54eb4276ee1da02a401429bc635ce984743",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/core/res/res/drawable-xhdpi/loader_f01.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 1486,
+      "sha256": "957506b04d1a1f0bf8411a5248f7db61c59f14adcebd0c8c463e72717b5055dd",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/core/res/res/drawable-xhdpi/loader_f02.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 1490,
+      "sha256": "d10786867e87a161f62420f71e5c35d8699a19b87cbd51af7263d7494e892887",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/core/res/res/drawable-xhdpi/loader_f03.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 1503,
+      "sha256": "6b4770b680f270a0c2376660e7b3a979a05c60dad4fb603843c9f5cf7671dd77",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/core/res/res/drawable-xhdpi/loader_mini_f01.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 760,
+      "sha256": "59d25d6d76510f1c4ef411d9a80b6df0676d1a04f7cc35f2f2caa90326cee9ff",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/core/res/res/drawable-xhdpi/loader_mini_f02.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 746,
+      "sha256": "bb2e4745dc05b57abcdc01539afb61c0814bf473328255abc917288f617b1219",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/core/res/res/drawable-xhdpi/loader_mini_f03.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 764,
+      "sha256": "e350d28349837fa6d159d4364ba17b8bfafd10b344b3d8f02f3f190e091194d3",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_0.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 637,
+      "sha256": "3c931b192a1b3818a44fecba43de25c179ee53954c1dacb7ed83e4fdd32f4576",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_1.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 688,
+      "sha256": "eda8b7b43a0edc862c4ed0fa09c6bbab0db2e4508e491bb01aa435a25c56bd36",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_2.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 817,
+      "sha256": "b1c2154e37c0193f0750733b5947984a5f5d22060c6d7e9685f85ba3278496ee",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_3.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 960,
+      "sha256": "60a9bcd0d161d957800327da5e8a86d82755732c89c3df6ca00d3bab8bb6db6e",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_4.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 1060,
+      "sha256": "38ab064e1d619f82ac741d6768c88bd7e2371510d00dcd2d654187cd6b9527ef",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_full_0.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 637,
+      "sha256": "3c931b192a1b3818a44fecba43de25c179ee53954c1dacb7ed83e4fdd32f4576",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_full_1.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 688,
+      "sha256": "eda8b7b43a0edc862c4ed0fa09c6bbab0db2e4508e491bb01aa435a25c56bd36",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_full_2.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 817,
+      "sha256": "b1c2154e37c0193f0750733b5947984a5f5d22060c6d7e9685f85ba3278496ee",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_full_3.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 960,
+      "sha256": "60a9bcd0d161d957800327da5e8a86d82755732c89c3df6ca00d3bab8bb6db6e",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_full_4.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 1060,
+      "sha256": "38ab064e1d619f82ac741d6768c88bd7e2371510d00dcd2d654187cd6b9527ef",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/ic_qs_wifi_no_network.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 908,
+      "sha256": "00129261c947ea79257b404e104e3b4bfeccc69323d357a364d0b5b1f1c03f5d",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_0.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 637,
+      "sha256": "3c931b192a1b3818a44fecba43de25c179ee53954c1dacb7ed83e4fdd32f4576",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_0_fully.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 637,
+      "sha256": "3c931b192a1b3818a44fecba43de25c179ee53954c1dacb7ed83e4fdd32f4576",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_1.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 688,
+      "sha256": "eda8b7b43a0edc862c4ed0fa09c6bbab0db2e4508e491bb01aa435a25c56bd36",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_1_fully.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 688,
+      "sha256": "eda8b7b43a0edc862c4ed0fa09c6bbab0db2e4508e491bb01aa435a25c56bd36",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_2.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 817,
+      "sha256": "b1c2154e37c0193f0750733b5947984a5f5d22060c6d7e9685f85ba3278496ee",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_2_fully.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 817,
+      "sha256": "b1c2154e37c0193f0750733b5947984a5f5d22060c6d7e9685f85ba3278496ee",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_3.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 960,
+      "sha256": "60a9bcd0d161d957800327da5e8a86d82755732c89c3df6ca00d3bab8bb6db6e",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_3_fully.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 960,
+      "sha256": "60a9bcd0d161d957800327da5e8a86d82755732c89c3df6ca00d3bab8bb6db6e",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_4.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 1060,
+      "sha256": "38ab064e1d619f82ac741d6768c88bd7e2371510d00dcd2d654187cd6b9527ef",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_4_fully.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 1060,
+      "sha256": "38ab064e1d619f82ac741d6768c88bd7e2371510d00dcd2d654187cd6b9527ef",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "overlay/frameworks/base/packages/SystemUI/res/drawable-xhdpi/stat_sys_wifi_signal_null.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 908,
+      "sha256": "00129261c947ea79257b404e104e3b4bfeccc69323d357a364d0b5b1f1c03f5d",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "paper_launcher/res/drawable-nodpi/flap_back.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 1284340,
+      "sha256": "1bb5d7528d29a0546903f06c8e085ce8aacb1e70f0da81875f5d05e1491beed2",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "paper_launcher/res/drawable-nodpi/flap_front.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 661404,
+      "sha256": "3c38c72f8b1137df6f890fb5952d9a42e9056e25739a4817f23fca27036e193e",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "paper_launcher/res/drawable-nodpi/shelf.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 761680,
+      "sha256": "1ae8ebe35f3ae7cd7be5cf83fff69a0101af338ea40801e378b14505a446cd8f",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/01_standby.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 8065,
+      "sha256": "312185d2b8893e44ccbcfcba097b67717ca8fdfd5c1022b0cac106b502cdfdf0",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/02_paper_type.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 478882,
+      "sha256": "da0fff6192abc12f7c010c40ea64b1346d2978b01219f12c5de9247691012d5c",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/03_package.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 458140,
+      "sha256": "7a3ee889f4f9677f33dd3e29a376cb3fb5a05569cb669f2a974368beae919039",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/04_moon.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 535800,
+      "sha256": "2e11f773ea0de0c64ecfc6d3a7d56187e147e6dae7763ae76119f967a8e4ec1c",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/05_paper_sign.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 265352,
+      "sha256": "4734ab180888f080da1ce3e633be90177a2367a9957e4fc6d0ae4260486fbb8e",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/06_ampersand.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 145896,
+      "sha256": "eab4830f4af92a11ebac7d49d99b889c4f1b3148688a509b4001326c464e0d60",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/07_leaf.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 323289,
+      "sha256": "f64a32b9a636a8c361148ba2c85b2c488fc0d9670eb286ed3a49041d3415ebb2",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/08_empire_state.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 121148,
+      "sha256": "fd096c44936c0512994f9be48e4c0998e1fb073bbddad0d4b3796db6d927448b",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/09_face.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 74689,
+      "sha256": "e4e94bf5d2b5d03843c4867c832cb94486243d6633c36dfc301ef9707b21d6eb",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/10_geometric.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 255071,
+      "sha256": "a922a141ad0bcedb5f0d964afbae920485b6aaca4bce1594882243ffa573c687",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/11_child.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 269892,
+      "sha256": "11c8414a986765acb47eef38d41c723ec84d28d26e593ba9b60fa7fb9315b33a",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/12_turn_the_page.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 569250,
+      "sha256": "aa7cf0a004cff81a9b17bdf1cdff76c91f5c36df4ed8c3a438e84c71486850cd",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/sleeping_paper.png",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 59694,
+      "sha256": "62bcf31582d56a55804fef2f4cb0209826f8a77ac78e1bfdb9ca6f86739df320",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "sleep/suspend.jpg",
+      "category": "owner-kept-artwork",
+      "reason": "Owner accepts retaining stock screen artwork; removed from priority exclusion list; independent third-party permission not verified",
+      "bytes": 8065,
+      "sha256": "312185d2b8893e44ccbcfcba097b67717ca8fdfd5c1022b0cac106b502cdfdf0",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-android-device",
+      "path": "stock-blobs/imx/epdc/epdc_ED078KH1.fw",
+      "category": "review-waveform-distribution-terms",
+      "reason": "Owner points to public waveform distribution examples and prefers retention. Public examples verified, but identical-file public provenance and redistribution terms unverified. Earlier mandatory-exclusion claim withdrawn; neither prohibition nor permission established.",
+      "bytes": 4642008,
+      "sha256": "3b9558e462b71d82c56763852fc3421e93b445edc22700200f92dd9b39b31089",
+      "public_example": "https://github.com/zephray/NekoInk/wiki/Waveform-for-the-screen",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/ram-header.bin",
+      "category": "review-runtime-binaries",
+      "reason": "Identify exact source/config/toolchain and licenses; nested RAM payload contains kernel and Android/BusyBox binaries",
+      "bytes": 2048,
+      "sha256": "49e683ce29d9eff4ab82ad0e407a53085251bc48fa4f956aa1c6d8022f871226",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/tables/ebr.sector14731264.bin",
+      "category": "review-device-metadata",
+      "reason": "Inspect disk signatures/identifiers and replace extracted sectors with generated templates where possible",
+      "bytes": 512,
+      "sha256": "b4f530891808d08444de7440db398b466352adc111bc7438ceadf220d07ff09f",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/tables/ebr.sector15257600.bin",
+      "category": "review-device-metadata",
+      "reason": "Inspect disk signatures/identifiers and replace extracted sectors with generated templates where possible",
+      "bytes": 512,
+      "sha256": "ad89f4ffc96aeac099aab7ec7d7fd8fa4316802fc724c59e79236659c7b1e467",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/tables/ebr.sector169984.bin",
+      "category": "review-device-metadata",
+      "reason": "Inspect disk signatures/identifiers and replace extracted sectors with generated templates where possible",
+      "bytes": 512,
+      "sha256": "dd1e3735292d394bea3375133334efb3ecd604e2477bd358a0f428b8d926d73a",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/tables/ebr.sector2269184.bin",
+      "category": "review-device-metadata",
+      "reason": "Inspect disk signatures/identifiers and replace extracted sectors with generated templates where possible",
+      "bytes": 512,
+      "sha256": "7d35c78c1c4bedaae05ad37cf3e9a88a5849f7399b29decff415800b43449b76",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/tables/ebr.sector2402304.bin",
+      "category": "review-device-metadata",
+      "reason": "Inspect disk signatures/identifiers and replace extracted sectors with generated templates where possible",
+      "bytes": 512,
+      "sha256": "e81f8c9e9d1f903daa665414228702f95c561d3254bb31a6555301f5429a8c0f",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/tables/manifest.json",
+      "category": "review-device-metadata",
+      "reason": "Inspect disk signatures/identifiers and replace extracted sectors with generated templates where possible",
+      "bytes": 2039,
+      "sha256": "18c17c5cf9a11ecf3d018397face8c974f4962d33889d5c13a73ce9dc3eadb5a",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/tables/mbr.sector0.bin",
+      "category": "review-device-metadata",
+      "reason": "Inspect disk signatures/identifiers and replace extracted sectors with generated templates where possible",
+      "bytes": 512,
+      "sha256": "a7d7df6bf90f37cd4027940c01c72e9353cb9b6b86791f12674669ad6125d458",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    },
+    {
+      "repository": "ridi-paper-pro-sd-tools",
+      "path": "porting/e70q10/emmc-updater/assets/tables/original-mbr.sector0.bin",
+      "category": "review-device-metadata",
+      "reason": "Inspect disk signatures/identifiers and replace extracted sectors with generated templates where possible",
+      "bytes": 512,
+      "sha256": "faadfd68cc539b163086ab9ef103438346f28c8dfd561870a644d7822446e184",
+      "policy": "No reuse grant from this project; exclude/replace in other-device ports",
+      "provenance_note": "Selected artwork/device-derived or uncertain provenance; this does not assert ownership"
+    }
+  ],
+  "embedded_patch_assets": [
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-nodpi/ridi_stock_poweroff.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-nodpi/ridi_stock_poweroff_low_battery.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/main_actionbar_btn_wifi_4.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/main_actionbar_btn_wifi_no_network.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/main_actionbar_btn_wifi_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_brightness_minus.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_brightness_plus.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_frontlight_brightness.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_frontlight_color.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_icon_frontlight.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_icon_refresh.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_frontlight.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_notifications.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_power.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_refresh.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_settings.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_wifi.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_wifi_on.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_100.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_15.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_28.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_43.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_57.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_71.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_85.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_9.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_100.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_15.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_28.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_43.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_57.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_71.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_85.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_9.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_power_cancel.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_power_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_power_restart.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_progress_1.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_progress_2.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/frameworks/base.patch",
+      "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_progress_3.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-hdpi/ic_browser_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-hdpi/ic_browser_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-mdpi/ic_browser_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-mdpi/ic_browser_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-xhdpi/ic_browser_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-xhdpi/ic_browser_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-xxhdpi/ic_browser_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-xxhdpi/ic_browser_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-xxxhdpi/ic_browser_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Browser2.patch",
+      "target": "res/mipmap-xxxhdpi/ic_browser_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-hdpi/ic_file_launcher.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-hdpi/ic_launcher_icon_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-mdpi/ic_file_launcher.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-mdpi/ic_launcher_icon_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-xhdpi/ic_file_launcher.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-xhdpi/ic_launcher_icon_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-xxhdpi/ic_file_launcher.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-xxhdpi/ic_launcher_icon_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-xxxhdpi/ic_file_launcher.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/DocumentsUI.patch",
+      "target": "res/mipmap-xxxhdpi/ic_launcher_icon_foreground.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-hdpi/ridi_stock_switch_thumb_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-hdpi/ridi_stock_switch_thumb_on.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-hdpi/ridi_stock_switch_track_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-hdpi/ridi_stock_switch_track_on.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_brightness_minus.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_brightness_plus.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_frontlight_brightness.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_frontlight_color.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_battery.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_date.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_device_info.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_frontlight.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_notification.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_reboot.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_refresh.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_shutdown.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_sleep.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_sleepscreen.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_storage.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_icon_wifi.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_panel_back.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_panel_icon_settings.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_sleep_check.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_sleep_more.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_sleep_screen_outline.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_applications.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_nav_back.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_onoff_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_onoff_on.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_page_left.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_page_right.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_switch_thumb_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_switch_thumb_on.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_switch_track_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_switch_track_on.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_wifi_lock_signal_1.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_wifi_lock_signal_2.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_wifi_lock_signal_3.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_wifi_lock_signal_4.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_wifi_signal_1.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_wifi_signal_2.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_wifi_signal_3.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xhdpi/ridi_stock_wifi_signal_4.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xxhdpi/ridi_stock_switch_thumb_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xxhdpi/ridi_stock_switch_thumb_on.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xxhdpi/ridi_stock_switch_track_off.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/drawable-xxhdpi/ridi_stock_switch_track_on.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-hdpi/ic_launcher_settings.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-hdpi/ic_settings_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-mdpi/ic_launcher_settings.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-mdpi/ic_settings_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-xhdpi/ic_launcher_settings.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-xhdpi/ic_settings_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-xxhdpi/ic_launcher_settings.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-xxhdpi/ic_settings_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-xxxhdpi/ic_launcher_settings.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    },
+    {
+      "patch": "patches/packages/apps/Settings.patch",
+      "target": "res/mipmap-xxxhdpi/ic_settings_legacy.png",
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
+    }
+  ],
+  "container_review": [
+    "sd-tools:porting/e70q10/emmc-tool/runtime.zip"
+  ],
+  "not_restricted_by_this_policy": [
+    "GPL Linux/RTL8189FS code and corresponding modules",
+    "OFL RozhaOne font",
+    "Apache/BSD or other independently licensed code"
+  ]
+}

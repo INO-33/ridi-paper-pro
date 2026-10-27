@@ -1,0 +1,45 @@
+{
+  "checkpoint": "2026-10-27",
+  "android_packages_restored": 23,
+  "chromium_dependency_packages_restored": 2,
+  "package_reapply_idempotence": true,
+  "product_restores": [
+    {
+      "path": "device/ridi/e70q10",
+      "commit": "a34eda737a0aeb31cb2e68dd5c5daf2ed91c8840",
+      "working_checkout": true,
+      "source": "local published export; shared object storage (not network independence proof)"
+    },
+    {
+      "path": "vendor/nxp-opensource/kernel_imx",
+      "commit": "41074b3cae542a3a43f17b2f0a2f7f59a324a8d1",
+      "working_checkout": true,
+      "source": "local published export; shared object storage (not network independence proof)"
+    },
+    {
+      "path": "chromium",
+      "commit": "392bec2c2bdb2420de5c8454bb2165f5b1d54596",
+      "working_checkout": false,
+      "source": "local published export; shared object storage (not network independence proof)"
+    }
+  ],
+  "original_android_projects_preserved": 597,
+  "captured_original_indices_preserved": 28,
+  "preparation_failure_stops": true,
+  "full_source_download": false,
+  "full_build": false,
+  "physical_validation": false,
+  "build_partition_written": false,
+  "host_runtime_checks": "Java/Python2+SSL/ARM GCC/Clang passed; installed package gaps lib32z1-dev libelf-dev fastboot are declared in setup installer",
+  "asset_review": "62 selected assets, 117 image patch paths, nested SD runtime inventoried",
+  "credential_scan": {
+    "text_files": 851,
+    "findings": 0,
+    "complete_history_audit": false
+  },
+  "remaining": [
+    "New-host complete Android and WebView build",
+    "Exact source/configuration reproduction of preserved SD runtime and WebView APK",
+    "Exact third-party device-asset redistribution terms and complete history/binary audit"
+  ]
+}

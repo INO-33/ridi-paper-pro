@@ -5,8 +5,9 @@ NXP i.MX6SoloLite BSP와 Linux 4.9를 기반으로 E Ink 화면, 입력, 전원 
 RIDI용 시스템 UI와 WebView를 구성합니다. 이 저장소에서 전체 소스 조합과
 준비·빌드 절차를 관리합니다.
 
-현재 소스 체크포인트는 **2026-10-16**입니다. 소스는 아래 7개 비공개 저장소로
-관리하며, manifest가 각 구성 요소의 정확한 커밋을 고정합니다.
+현재 소스 체크포인트는 **2026-10-27**입니다. 소스는 아래 7개 비공개 저장소로
+관리하며, manifest가 각 구성 요소의 정확한 커밋을 고정합니다. 기존 링크 호환을 위해
+기본 브랜치 이름 `checkpoint-20261016`은 유지하며 실제 기준일은 lock 파일을 따릅니다.
 
 ## 저장소 구성
 
@@ -69,6 +70,10 @@ source "$HOME/ridi-workspace/env.sh"
 
 ```sh
 "$ANDROID_BUILD_TOP/ridi-build-support/build.sh" check e70q10_reference-eng
+"$ANDROID_BUILD_TOP/ridi-build-support/build.sh" build e70q10_reference-eng kernelimage
+python3 "$ANDROID_BUILD_TOP/ridi-build-support/build-wifi.py" --check
+python3 "$ANDROID_BUILD_TOP/ridi-build-support/build-wifi.py"
+export E70Q10_WIFI_MODULE="${E70Q10_OUT_DIR:-$RIDI_WORKSPACE/android-out/e70q10_reference}/wifi/8189fs.ko"
 "$ANDROID_BUILD_TOP/ridi-build-support/build.sh" build e70q10_reference-eng bootimage systemimage vendorimage
 ```
 
@@ -99,10 +104,23 @@ Java 8 런타임과 Python 2 래퍼는 빌드 도구 저장소에서 제공합�
 `default.xml`, 통합 패치의 목표 소스 트리는 작업 소스의 `ridi-android-changes/projects.json`에
 기록됩니다. 커밋/소스 트리/자산 해시 검증과 전체 제품의 실기기 검증은 구분합니다.
 
+이번 점검에서 23개 Android 패치와 Chromium 의존성 2개의 복원·재적용, 기기·커널의
+새 작업 폴더 복원, Java/Python2/컴파일러 실행을 확인했습니다. 자세한 범위는
+[development-validation.json](development-validation.json)에 있습니다.
+
 새 환경에서 Android·Chromium 전체 재빌드까지 검증한 릴리즈는 아닙니다. 특히
 저전압 종료 직전 LOW BATTERY 자동 표시와 최종 전원 종료 전환은 추가 실기기
 검증 항목입니다. 호스트 패키지, 오래된 Chromium 빌드 의존성과 원본 서버의
 장기 보존도 별도 확인이 필요합니다. 원본 작업 소스 삭제는 전체 복원·빌드 검증을
 마친 뒤 판단합니다.
 
-기기 전용 자산을 포함하므로 7개 저장소의 비공개 설정을 유지합니다.
+공개 전 점검 단계이므로 현재 7개 저장소는 비공개를 유지합니다. 공개 자산 검토에는
+대응 소스와 재배포 조건이 아직 확인되지 않은 바이너리를 별도로 기록했습니다.
+
+
+## 사용 대상과 라이선스
+
+기존 **리디 페이퍼 프로 사용자**를 위한 프로젝트입니다. 새 자체 앱·보조 코드는
+Apache 2.0이며 기존 파일은 원래 라이선스를 유지합니다. 기기 유래 파일에는 재사용
+허락을 부여하지 않으며 타 기기 포팅에서는 해당 자료를 제외합니다.
+[LICENSING.md](LICENSING.md), [DEVICE_ASSETS.md](DEVICE_ASSETS.md)를 확인하세요.

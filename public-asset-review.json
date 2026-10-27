@@ -1,6 +1,6 @@
 {
-  "checkpoint": "2026-10-16",
-  "scope": "Current seven published checkpoint trees and Android patch headers; not a full Git history or credential audit",
+  "checkpoint": "2026-10-27",
+  "scope": "Selected current publication assets, 851 changed/project-owned text files, nested SD runtime inventory; not a complete Git-history or binary/third-party rights audit",
   "assets": [
     {
       "repository": "ridi-paper-pro-android-device",
@@ -245,8 +245,8 @@
     {
       "repository": "ridi-paper-pro-android-device",
       "path": "paper_launcher/assets/RozhaOne.ttf",
-      "category": "review-artwork-fonts",
-      "reason": "Confirm original authorship or upstream license and attribution",
+      "category": "licensed-font-ofl-1.1",
+      "reason": "Exact SHA256 matches Google Fonts original; OFL notice included beside font",
       "bytes": 322828,
       "sha256": "8491b838c31f30272aa6da67e4749afabab8297db82a055fd2d0aa689f500ee3"
     },
@@ -278,7 +278,7 @@
       "repository": "ridi-paper-pro-android-device",
       "path": "prebuilt/8189fs.ko",
       "category": "open-source-module-corresponding-source",
-      "reason": "GPL RTL8189FS v4.3.24.10_24994.20171103. Module SHA256 matches local Tolino source build artifact. Earlier extracted/proprietary classification corrected; exact driver source and build configuration still need inclusion in seven-repository restore flow.",
+      "reason": "GPL source, provenance, adaptation diff and build instructions included under wifi/; module hash matches local Tolino build artifact; fresh rebuild not yet verified",
       "bytes": 1826576,
       "sha256": "74c94a24f1a31e0f3e0a1d1b78fbe37965e7fd18b570fdc32186938c4329041c",
       "local_source_path": "reference-sources/tolino-epos/kernel_imx/drivers/net/wireless/rtl8189fs",
@@ -506,707 +506,718 @@
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-nodpi/ridi_stock_poweroff.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-nodpi/ridi_stock_poweroff_low_battery.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/main_actionbar_btn_wifi_4.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/main_actionbar_btn_wifi_no_network.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/main_actionbar_btn_wifi_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_brightness_minus.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_brightness_plus.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_frontlight_brightness.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_frontlight_color.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_icon_frontlight.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_icon_refresh.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_frontlight.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_notifications.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_power.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_refresh.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_settings.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_wifi.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_quick_wifi_on.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_100.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_15.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_28.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_43.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_57.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_71.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_85.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_9.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_100.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_15.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_28.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_43.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_57.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_71.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_85.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stat_sys_battery_c_9.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_power_cancel.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_power_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_power_restart.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_progress_1.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_progress_2.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/frameworks/base.patch",
       "target": "packages/SystemUI/res/drawable-xhdpi/ridi_stock_progress_3.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-hdpi/ic_browser_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-hdpi/ic_browser_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-mdpi/ic_browser_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-mdpi/ic_browser_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-xhdpi/ic_browser_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-xhdpi/ic_browser_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-xxhdpi/ic_browser_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-xxhdpi/ic_browser_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-xxxhdpi/ic_browser_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Browser2.patch",
       "target": "res/mipmap-xxxhdpi/ic_browser_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-hdpi/ic_file_launcher.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-hdpi/ic_launcher_icon_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-mdpi/ic_file_launcher.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-mdpi/ic_launcher_icon_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-xhdpi/ic_file_launcher.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-xhdpi/ic_launcher_icon_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-xxhdpi/ic_file_launcher.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-xxhdpi/ic_launcher_icon_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-xxxhdpi/ic_file_launcher.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/DocumentsUI.patch",
       "target": "res/mipmap-xxxhdpi/ic_launcher_icon_foreground.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-hdpi/ridi_stock_switch_thumb_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-hdpi/ridi_stock_switch_thumb_on.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-hdpi/ridi_stock_switch_track_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-hdpi/ridi_stock_switch_track_on.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_brightness_minus.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_brightness_plus.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_frontlight_brightness.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_frontlight_color.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_battery.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_date.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_device_info.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_frontlight.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_notification.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_reboot.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_refresh.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_shutdown.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_sleep.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_sleepscreen.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_storage.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_icon_wifi.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_panel_back.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_panel_icon_settings.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_sleep_check.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_sleep_more.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_sleep_screen_outline.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_applications.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_nav_back.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_onoff_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_onoff_on.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_page_left.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_page_right.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_switch_thumb_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_switch_thumb_on.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_switch_track_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_switch_track_on.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_wifi_lock_signal_1.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_wifi_lock_signal_2.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_wifi_lock_signal_3.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_wifi_lock_signal_4.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_wifi_signal_1.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_wifi_signal_2.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_wifi_signal_3.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xhdpi/ridi_stock_wifi_signal_4.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xxhdpi/ridi_stock_switch_thumb_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xxhdpi/ridi_stock_switch_thumb_on.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xxhdpi/ridi_stock_switch_track_off.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/drawable-xxhdpi/ridi_stock_switch_track_on.png",
-      "category": "owner-kept-artwork",
-      "stock_named": true
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-hdpi/ic_launcher_settings.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-hdpi/ic_settings_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-mdpi/ic_launcher_settings.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-mdpi/ic_settings_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-xhdpi/ic_launcher_settings.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-xhdpi/ic_settings_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-xxhdpi/ic_launcher_settings.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-xxhdpi/ic_settings_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-xxxhdpi/ic_launcher_settings.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     },
     {
       "patch": "patches/packages/apps/Settings.patch",
       "target": "res/mipmap-xxxhdpi/ic_settings_legacy.png",
-      "category": "owner-kept-artwork",
-      "stock_named": false
+      "category": "device-artwork-port-exclusion-review",
+      "provenance": "Conservative exclusion list; do not infer every image was extracted from stock"
     }
   ],
-  "runtime_members_file": "runtime-ramdisk-members.json",
-  "owner_decision_update": "2026-10-16: retain screen artwork; review Wi-Fi module source/provenance; waveform remains the priority exclusion. No visibility or asset/history changes.",
-  "waveform_decision_update": "2026-10-16: owner prefers retaining waveform based on public examples; classify exact file redistribution terms as unverified, without asserting legality either way. Repository remains private."
+  "runtime_members_file": "development-validation.json (runtime inventory summary)",
+  "owner_decision_update": "New project-owned apps/helpers Apache-2.0; retain existing third-party licenses. Existing PAPER PRO owners are target users. No project reuse grant for device-origin assets; exclude them from other-device ports.",
+  "waveform_decision_update": "2026-10-16: owner prefers retaining waveform based on public examples; classify exact file redistribution terms as unverified, without asserting legality either way. Repository remains private.",
+  "credential_pattern_scan": {
+    "files": 851,
+    "findings": 0,
+    "full_history_scan": false
+  },
+  "remaining_checks": [
+    "Exact SD runtime/ram-kernel corresponding-source and reproducible build",
+    "Waveform and stock artwork exact redistribution terms",
+    "WebView APK-to-source reproduction and complete binary notices",
+    "Full Git-history and binary privacy review before public visibility"
+  ]
 }
