@@ -2,7 +2,7 @@
 
 이 문서는 7개 저장소에 접근할 수 있는 개발자를 위한 시작점입니다. Android 제품,
 커널, WebView, SD 도구의 경로를 하나의 작업 폴더 아래에 구성합니다. 저장소를
-공개로 전환하는 절차는 아닙니다. 공개 전 자산 목록은 [PUBLIC_ASSETS.md](PUBLIC_ASSETS.md)를 확인합니다.
+공개로 전환하는 절차는 아닙니다. 자산 검토 기록은 [PUBLIC_ASSETS.md](PUBLIC_ASSETS.md)를 확인합니다.
 
 기존 리디 페이퍼 프로 사용자를 위한 환경입니다. [LICENSING.md](LICENSING.md)의 코드 라이선스와
 기기 자산 원칙을 확인하세요. 타 기기 포팅에서는 기기 유래 자료를 제외합니다.
@@ -26,8 +26,6 @@ RAM은 16 GiB 이상을 계획하고 부족하면 병렬 수를 줄이세요. �
 ```sh
 sudo apt-get update
 sudo apt-get install --no-install-recommends git gh python3 ca-certificates
-gh auth login
-gh auth setup-git
 git clone --branch checkpoint-20261016 https://github.com/INO-33/ridi-paper-pro.git "$HOME/ridi-manifest"
 cd "$HOME/ridi-manifest"
 python3 setup-host.py --profile all
@@ -179,7 +177,7 @@ GUI 표시는 그래픽 세션이 필요합니다. `Tk import` 검사는 GUI 표
 | 현상 | 확인/조치 |
 |---|---|
 | 호스트 검사 실패 | JSON 보고서의 누락 패키지·실행 실패 확인, `setup-host.py`로 설치 명령 확인 |
-| private repository 접근 실패 | `gh auth status`, `gh auth setup-git`, 7개 저장소 읽기 권한 확인 |
+| GitHub 다운로드 실패 | 저장소 URL·네트워크 상태·GitHub 요청 제한 확인. 공개 소스 읽기에는 계정 인증 불필요 |
 | 다운로드 중단 | `.orchestrator/logs/source-prepare-*.log` 확인. `prepare.sh`는 기존 소스 경로를 거부하므로 무작정 재실행하지 않음 |
 | Python 실행 불가 | amd64 Linux와 32비트 호환 패키지 확인. 컨테이너/보안 정책이 32비트 실행을 막는지도 확인 |
 | Docker 권한/데몬 오류 | 현재 사용자로 `docker info` 확인 |

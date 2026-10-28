@@ -1219,5 +1219,12 @@
     "Waveform and stock artwork exact redistribution terms",
     "WebView APK-to-source reproduction and complete binary notices",
     "Full Git-history and binary privacy review before public visibility"
-  ]
+  ],
+  "publication_decision": {
+    "date": "2026-10-28",
+    "approved_by": "project owner",
+    "scope": "All seven existing repositories including listed review items; preserve assets and Git history",
+    "independent_third_party_permission_verification": false,
+    "existing_license_and_device_asset_policy_preserved": true
+  }
 }

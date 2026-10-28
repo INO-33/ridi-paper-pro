@@ -17,7 +17,7 @@
       "repository": "INO-33/ridi-paper-pro",
       "purpose": "manifest",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "90f5ac607a026c82f1c638bc55da77e93f1aab135c2ff716200a026a3a003d5c"
+      "readme_sha256": "32b79aa54ceb61283a0f9e9ec55d621857794299ea0e1f7bb63e8e21835f4cdd"
     },
     {
       "repository": "INO-33/ridi-paper-pro-android-patches",
@@ -154,5 +154,10 @@
     "license_policy": "LICENSING.md",
     "device_asset_policy": "restricted-device-assets.json"
   },
-  "development_validation": "development-validation.json"
+  "development_validation": "development-validation.json",
+  "publication": {
+    "approved_date": "2026-10-28",
+    "visibility": "public",
+    "source_checkpoint_unchanged": true
+  }
 }
