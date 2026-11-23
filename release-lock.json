@@ -19,7 +19,7 @@
       "repository": "INO-33/ridi-paper-pro",
       "purpose": "manifest",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "9ed464196f5c8659641d38379009d8fdbff9233e5c30bab5ba00f4734aa20b6c"
+      "readme_sha256": "c37af58384462b842c0b6580a8950768d233e82bbad858fd755b83bf2cb00ffd"
     },
     {
       "repository": "INO-33/ridi-paper-pro-android-patches",
@@ -59,9 +59,9 @@
     {
       "repository": "INO-33/ridi-paper-pro-webview",
       "purpose": "chromium",
-      "commit": "392bec2c2bdb2420de5c8454bb2165f5b1d54596",
+      "commit": "a2a500e316143dd55eb0c4103ed7db9648310398",
       "branch": "checkpoint-20261016",
-      "readme_sha256": "9bff6a79d4fc01e978f1a86047728ac04969a9987188be53e7c77ad8d306bf95"
+      "readme_sha256": "75eaf809732b0b7be58a873c7934d5d6124b6de9f0f07d8480f20054d913c42a"
     }
   ],
   "managed_repository_count": 7,
@@ -161,5 +161,16 @@
     "approved_date": "2026-10-28",
     "visibility": "public",
     "source_checkpoint_unchanged": true
+  },
+  "webview_m138": {
+    "repository": "INO-33/ridi-paper-pro-webview",
+    "branch": "checkpoint-20261016",
+    "commit": "a2a500e316143dd55eb0c4103ed7db9648310398",
+    "path": "m138/",
+    "chromium_version": "138.0.7204.183",
+    "tarball_sha256": "88470f24ce2609eee1cff5c769f945345e04dc6e3dccc638caee57fa53e33bf2",
+    "ridi_patches": 8,
+    "result_tree": "bb85aeef7f54ea9fb9dc80c12205612a95ef9a30",
+    "note": "Product WebView source. The M58 full snapshot used by prepare-chromium.py stays pinned in source_repositories (392bec2c)."
   }
 }
